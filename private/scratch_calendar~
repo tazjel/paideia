@@ -12,5 +12,4 @@ for month in range(1,12):
             mc = calendar.monthcalendar(2011, month)
             for week in mc:
                 if d['the_date'].day in week:
-                    print 'week of ', nms[month], ' ', week[0], ': ', d['the_num']
-    
+                    print 'week of ', nms[month], ' ', week[0], ': ', d['the_num']    
