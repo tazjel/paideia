@@ -17,6 +17,12 @@ auth_user.id,auth_user.first_name,auth_user.last_name,auth_user.email,auth_user.
 15,David,McCleary,dkamccleary@gmail.com,18126b3745d3ab999b9173f36da7fbfabf5aed43a6d62bc644fe8496b11379edf6ab6b927a34d4f56653913d55d6f62df45756c54979d631dc55e8ac5a3692a7,,,<NULL>
 16,Alexander,Lee,leealex722@yahoo.ca,293a66130ede6152b2408ade2bd4a0099964089d4a7e7b9a0f288a5aaf757e17e1b2718b53018e4d4acd6fb6a38b5aafa4fdd5c5a6075155fcd8916b405aed1f,,,<NULL>
 17,Bruce,Luo,brucecluo@gmail.com,70d0cf34a22ef5ca34673f1856758b3f8b71df1dda5e4f38ae05527000121370848ce0a7c18a09859a64a131c2b81da943c1ee0dd3386a717987b3da0e0cb890,,,<NULL>
+<<<<<<< HEAD
+=======
+19,Jeff,de Ruyter,jeffder1959@gmail.com,2a41d2427ac777296ad41583d072d5714be0e499f56c687b34d77c052c411e31010cde3dc047f2a76388be7f5f5ba4c9d70267949f553ac4594782876ba6acfe,,,
+46,foo,bar,foo@bar.com,e6d896e54115fe68fcf801882156e6c71fdb5f3c863a118aad7dce352f48c30b9eaa5bb82e8806e553c817bcb8cf70c3eeab7fcfedcabdf7bc6c3c6f687c7b48,,,
+47,fred,fred,fred@fred.com,e6d896e54115fe68fcf801882156e6c71fdb5f3c863a118aad7dce352f48c30b9eaa5bb82e8806e553c817bcb8cf70c3eeab7fcfedcabdf7bc6c3c6f687c7b48,,,
+>>>>>>> refactor
 
 
 TABLE auth_group
@@ -40,6 +46,17 @@ auth_group.id,auth_group.role,auth_group.description
 17,user_15,Group uniquely assigned to user 15
 18,user_16,Group uniquely assigned to user 16
 19,user_17,Group uniquely assigned to user 17
+<<<<<<< HEAD
+=======
+20,user_18,Group uniquely assigned to user 18
+21,user_21,Group uniquely assigned to user 21
+22,user_22,Group uniquely assigned to user 22
+23,user_23,Group uniquely assigned to user 23
+24,user_44,Group uniquely assigned to user 44
+25,user_45,Group uniquely assigned to user 45
+26,user_46,Group uniquely assigned to user 46
+27,user_47,Group uniquely assigned to user 47
+>>>>>>> refactor
 
 
 TABLE auth_membership
@@ -70,6 +87,15 @@ auth_membership.id,auth_membership.user_id,auth_membership.group_id
 24,15,17
 25,16,18
 26,17,19
+<<<<<<< HEAD
+=======
+28,21,21
+29,22,22
+30,23,23
+32,45,25
+33,46,26
+34,47,27
+>>>>>>> refactor
 
 
 TABLE auth_permission
@@ -1216,6 +1242,82 @@ auth_event.id,auth_event.time_stamp,auth_event.client_ip,auth_event.user_id,auth
 1134,2012-03-22 15:18:28,127.0.0.1,2,auth,User 2 Logged-in
 1135,2012-03-23 15:40:22,127.0.0.1,2,auth,User 2 Logged-in
 1136,2012-04-10 17:35:40,127.0.0.1,2,auth,User 2 Logged-in
+<<<<<<< HEAD
+=======
+1137,2012-04-20 13:51:30,127.0.0.1,<NULL>,auth,Group 20 created
+1210,2012-05-18 14:32:59,127.0.0.1,19,auth,User 19 Logged-in
+1211,2012-05-23 21:25:12,127.0.0.1,19,auth,User 19 Logged-in
+1212,2012-05-25 15:01:12,127.0.0.1,19,auth,User 19 Logged-in
+1213,2012-06-05 15:36:23,127.0.0.1,19,auth,User 19 Logged-in
+1214,2012-06-05 20:55:17,127.0.0.1,19,auth,User 19 Logged-in
+1215,2012-06-05 21:07:53,127.0.0.1,<NULL>,auth,Group 21 created
+1216,2012-06-05 21:07:53,127.0.0.1,21,auth,User 21 Registered
+1217,2012-06-05 21:15:26,127.0.0.1,19,auth,User 19 Logged-in
+1218,2012-06-05 21:25:19,127.0.0.1,19,auth,User 19 Logged-in
+1219,2012-06-05 21:28:26,127.0.0.1,<NULL>,auth,Group 22 created
+1220,2012-06-05 21:28:26,127.0.0.1,22,auth,User 22 Registered
+1221,2012-06-05 21:33:22,127.0.0.1,<NULL>,auth,Group 23 created
+1222,2012-06-05 21:33:22,127.0.0.1,23,auth,User 23 Registered
+1223,2012-06-05 21:41:32,127.0.0.1,23,auth,User 23 Logged-in
+1224,2012-06-07 16:42:07,127.0.0.1,23,auth,User 23 Logged-in
+1225,2012-06-14 15:20:42,127.0.0.1,19,auth,User 19 Logged-in
+1226,2012-06-14 15:23:17,127.0.0.1,19,auth,User 19 Logged-out
+1227,2012-06-14 15:24:20,127.0.0.1,<NULL>,auth,Group 24 created
+1235,2012-06-15 13:47:57,127.0.0.1,44,auth,User 44 Logged-out
+1236,2012-06-15 13:48:39,127.0.0.1,<NULL>,auth,Group 25 created
+1237,2012-06-15 13:48:39,127.0.0.1,45,auth,User 45 Registered
+1238,2012-06-15 14:12:45,127.0.0.1,<NULL>,auth,Group 26 created
+1239,2012-06-15 14:12:45,127.0.0.1,46,auth,User 46 Registered
+1240,2012-06-19 12:38:03,127.0.0.1,46,auth,User 46 Logged-in
+1241,2012-06-19 14:49:01,127.0.0.1,46,auth,User 46 Logged-in
+1242,2012-06-19 16:12:34,127.0.0.1,<NULL>,auth,Group 27 created
+1243,2012-06-19 16:12:34,127.0.0.1,47,auth,User 47 Registered
+1244,2012-06-21 13:53:21,127.0.0.1,46,auth,User 46 Logged-in
+1245,2012-06-21 16:11:59,127.0.0.1,46,auth,User 46 Logged-in
+1246,2012-06-21 16:15:44,127.0.0.1,46,auth,User 46 Logged-in
+1247,2012-06-21 16:18:04,127.0.0.1,46,auth,User 46 Logged-in
+1248,2012-06-21 16:20:29,127.0.0.1,46,auth,User 46 Logged-in
+1249,2012-06-21 16:20:55,127.0.0.1,46,auth,User 46 Logged-in
+1250,2012-06-21 16:21:37,127.0.0.1,46,auth,User 46 Logged-in
+1251,2012-06-21 16:23:21,127.0.0.1,46,auth,User 46 Logged-in
+1252,2012-06-21 16:24:32,127.0.0.1,46,auth,User 46 Logged-in
+1253,2012-06-21 16:27:09,127.0.0.1,46,auth,User 46 Logged-in
+1254,2012-06-21 16:31:22,127.0.0.1,46,auth,User 46 Logged-in
+1255,2012-06-21 16:33:44,127.0.0.1,46,auth,User 46 Logged-in
+1256,2012-06-21 16:34:51,127.0.0.1,46,auth,User 46 Logged-in
+1257,2012-06-21 17:24:04,127.0.0.1,46,auth,User 46 Logged-in
+1258,2012-06-21 17:26:07,127.0.0.1,46,auth,User 46 Logged-in
+1259,2012-06-26 13:08:32,127.0.0.1,46,auth,User 46 Logged-in
+1260,2012-06-26 15:33:22,127.0.0.1,46,auth,User 46 Logged-in
+1261,2012-06-27 14:10:32,127.0.0.1,46,auth,User 46 Logged-in
+1262,2012-06-28 12:02:40,127.0.0.1,46,auth,User 46 Logged-in
+1263,2012-06-28 12:07:06,127.0.0.1,46,auth,User 46 Logged-in
+1264,2012-06-28 12:14:32,127.0.0.1,46,auth,User 46 Logged-in
+1265,2012-06-28 12:15:47,127.0.0.1,46,auth,User 46 Logged-in
+1266,2012-06-28 12:16:57,127.0.0.1,46,auth,User 46 Logged-in
+1267,2012-06-28 12:22:44,127.0.0.1,46,auth,User 46 Logged-in
+1268,2012-06-28 13:30:39,127.0.0.1,46,auth,User 46 Logged-in
+1269,2012-06-28 13:49:26,127.0.0.1,46,auth,User 46 Logged-in
+1270,2012-06-28 14:33:09,127.0.0.1,46,auth,User 46 Logged-in
+1271,2012-06-28 14:35:26,127.0.0.1,46,auth,User 46 Logged-in
+1272,2012-06-28 14:39:07,127.0.0.1,46,auth,User 46 Logged-in
+1273,2012-06-28 14:55:19,127.0.0.1,46,auth,User 46 Logged-in
+1274,2012-06-28 15:22:12,127.0.0.1,46,auth,User 46 Logged-in
+1275,2012-06-29 13:52:26,127.0.0.1,46,auth,User 46 Logged-in
+1276,2012-06-30 11:18:57,127.0.0.1,46,auth,User 46 Logged-in
+1277,2012-07-02 11:19:20,127.0.0.1,46,auth,User 46 Logged-in
+1278,2012-07-02 12:15:14,127.0.0.1,46,auth,User 46 Logged-in
+1279,2012-07-02 14:27:45,127.0.0.1,46,auth,User 46 Logged-in
+1280,2012-07-02 14:28:42,127.0.0.1,46,auth,User 46 Logged-in
+1281,2012-07-02 14:32:52,127.0.0.1,46,auth,User 46 Logged-in
+1282,2012-07-02 15:49:53,127.0.0.1,46,auth,User 46 Logged-in
+1283,2012-07-02 15:55:52,127.0.0.1,46,auth,User 46 Logged-in
+1284,2012-07-03 10:44:22,127.0.0.1,46,auth,User 46 Logged-in
+1285,2012-07-03 16:07:28,127.0.0.1,46,auth,User 46 Logged-in
+1286,2012-07-03 20:21:09,127.0.0.1,46,auth,User 46 Logged-in
+1287,2012-07-03 21:13:05,127.0.0.1,46,auth,User 46 Logged-in
+1288,2012-07-04 12:13:39,127.0.0.1,46,auth,User 46 Logged-in
+>>>>>>> refactor
 
 
 TABLE auth_cas
@@ -3329,6 +3431,12 @@ question_records.id,question_records.name,question_records.question,question_rec
 
 
 TABLE tag_progress
+<<<<<<< HEAD
+=======
+tag_progress.id,tag_progress.name,tag_progress.latest_new
+30,<NULL>,1
+31,46,1
+>>>>>>> refactor
 
 
 TABLE paths
@@ -3533,6 +3641,14 @@ path_log.id,path_log.name,path_log.path,path_log.dt_started,path_log.last_step,p
 165,2,15,2012-03-29 14:52:52,15,<NULL>
 166,2,27,2012-03-29 17:29:59,28,<NULL>
 167,2,4,2012-03-29 17:32:22,3,<NULL>
+<<<<<<< HEAD
+=======
+238,47,14,2012-06-19 06:12:39,13,<NULL>
+381,46,23,2012-07-03 12:05:29,24,<NULL>
+382,46,23,2012-07-03 12:07:20,24,<NULL>
+383,46,13,2012-07-03 12:07:32,12,<NULL>
+384,46,14,2012-07-04 02:13:43,13,<NULL>
+>>>>>>> refactor
 
 
 TABLE attempt_log
@@ -13671,6 +13787,24 @@ attempt_log.id,attempt_log.name,attempt_log.step,attempt_log.path,attempt_log.sc
 10132,2,29,15,0.0,2012-03-29 16:01:05
 10133,2,28,<NULL>,<NULL>,2012-03-29 17:29:59
 10134,2,3,<NULL>,<NULL>,2012-03-29 17:32:22
+<<<<<<< HEAD
+=======
+10135,46,6,7,0.0,2012-06-19 05:52:44
+10136,46,4,5,0.0,2012-06-19 05:55:44
+10137,46,8,9,0.0,2012-06-19 05:56:49
+10138,47,13,14,0.0,2012-06-19 06:12:44
+10139,46,25,24,0.0,2012-07-03 10:41:41
+10140,46,24,23,0.0,2012-07-03 11:16:41
+10141,46,24,23,0.0,2012-07-03 11:16:58
+10142,46,15,15,0.0,2012-07-03 11:33:18
+10143,46,17,17,0.0,2012-07-03 11:37:41
+10144,46,11,12,0.0,2012-07-03 11:50:26
+10145,46,24,23,0.0,2012-07-03 11:50:35
+10146,46,22,22,0.0,2012-07-03 11:50:42
+10147,46,24,23,0.0,2012-07-03 12:07:23
+10148,46,12,13,0.0,2012-07-03 12:07:35
+10149,46,13,14,0.0,2012-07-04 02:13:47
+>>>>>>> refactor
 
 
 TABLE tag_records
@@ -13715,6 +13849,10 @@ tag_records.id,tag_records.name,tag_records.tag,tag_records.times_right,tag_reco
 38,2,63,1.0,4.0,2012-03-29 14:45:57,2012-03-27 21:36:52,25,<NULL>
 39,2,62,0.0,4.0,2012-03-29 14:53:03,2012-03-28 20:16:07,15,<NULL>
 40,2,61,0.0,2.0,2012-03-28 21:18:06,2012-03-28 20:29:34,2,<NULL>
+<<<<<<< HEAD
+=======
+43,46,62,0.0,11.0,2012-07-04 02:13:47,2012-07-03 10:41:41,14,13
+>>>>>>> refactor
 
 
 TABLE bug_status
