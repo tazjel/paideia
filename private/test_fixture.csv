@@ -17,12 +17,7 @@ auth_user.id,auth_user.first_name,auth_user.last_name,auth_user.email,auth_user.
 15,David,McCleary,dkamccleary@gmail.com,18126b3745d3ab999b9173f36da7fbfabf5aed43a6d62bc644fe8496b11379edf6ab6b927a34d4f56653913d55d6f62df45756c54979d631dc55e8ac5a3692a7,,,<NULL>
 16,Alexander,Lee,leealex722@yahoo.ca,293a66130ede6152b2408ade2bd4a0099964089d4a7e7b9a0f288a5aaf757e17e1b2718b53018e4d4acd6fb6a38b5aafa4fdd5c5a6075155fcd8916b405aed1f,,,<NULL>
 17,Bruce,Luo,brucecluo@gmail.com,70d0cf34a22ef5ca34673f1856758b3f8b71df1dda5e4f38ae05527000121370848ce0a7c18a09859a64a131c2b81da943c1ee0dd3386a717987b3da0e0cb890,,,<NULL>
-<<<<<<< HEAD
-=======
-19,Jeff,de Ruyter,jeffder1959@gmail.com,2a41d2427ac777296ad41583d072d5714be0e499f56c687b34d77c052c411e31010cde3dc047f2a76388be7f5f5ba4c9d70267949f553ac4594782876ba6acfe,,,
-46,foo,bar,foo@bar.com,e6d896e54115fe68fcf801882156e6c71fdb5f3c863a118aad7dce352f48c30b9eaa5bb82e8806e553c817bcb8cf70c3eeab7fcfedcabdf7bc6c3c6f687c7b48,,,
-47,fred,fred,fred@fred.com,e6d896e54115fe68fcf801882156e6c71fdb5f3c863a118aad7dce352f48c30b9eaa5bb82e8806e553c817bcb8cf70c3eeab7fcfedcabdf7bc6c3c6f687c7b48,,,
->>>>>>> refactor
+18,foo,bar,foo@bar.com,e6d896e54115fe68fcf801882156e6c71fdb5f3c863a118aad7dce352f48c30b9eaa5bb82e8806e553c817bcb8cf70c3eeab7fcfedcabdf7bc6c3c6f687c7b48,,,
 
 
 TABLE auth_group
@@ -46,17 +41,7 @@ auth_group.id,auth_group.role,auth_group.description
 17,user_15,Group uniquely assigned to user 15
 18,user_16,Group uniquely assigned to user 16
 19,user_17,Group uniquely assigned to user 17
-<<<<<<< HEAD
-=======
 20,user_18,Group uniquely assigned to user 18
-21,user_21,Group uniquely assigned to user 21
-22,user_22,Group uniquely assigned to user 22
-23,user_23,Group uniquely assigned to user 23
-24,user_44,Group uniquely assigned to user 44
-25,user_45,Group uniquely assigned to user 45
-26,user_46,Group uniquely assigned to user 46
-27,user_47,Group uniquely assigned to user 47
->>>>>>> refactor
 
 
 TABLE auth_membership
@@ -87,15 +72,7 @@ auth_membership.id,auth_membership.user_id,auth_membership.group_id
 24,15,17
 25,16,18
 26,17,19
-<<<<<<< HEAD
-=======
-28,21,21
-29,22,22
-30,23,23
-32,45,25
-33,46,26
-34,47,27
->>>>>>> refactor
+27,18,20
 
 
 TABLE auth_permission
@@ -1242,88 +1219,48 @@ auth_event.id,auth_event.time_stamp,auth_event.client_ip,auth_event.user_id,auth
 1134,2012-03-22 15:18:28,127.0.0.1,2,auth,User 2 Logged-in
 1135,2012-03-23 15:40:22,127.0.0.1,2,auth,User 2 Logged-in
 1136,2012-04-10 17:35:40,127.0.0.1,2,auth,User 2 Logged-in
-<<<<<<< HEAD
-=======
-1137,2012-04-20 13:51:30,127.0.0.1,<NULL>,auth,Group 20 created
-1210,2012-05-18 14:32:59,127.0.0.1,19,auth,User 19 Logged-in
-1211,2012-05-23 21:25:12,127.0.0.1,19,auth,User 19 Logged-in
-1212,2012-05-25 15:01:12,127.0.0.1,19,auth,User 19 Logged-in
-1213,2012-06-05 15:36:23,127.0.0.1,19,auth,User 19 Logged-in
-1214,2012-06-05 20:55:17,127.0.0.1,19,auth,User 19 Logged-in
-1215,2012-06-05 21:07:53,127.0.0.1,<NULL>,auth,Group 21 created
-1216,2012-06-05 21:07:53,127.0.0.1,21,auth,User 21 Registered
-1217,2012-06-05 21:15:26,127.0.0.1,19,auth,User 19 Logged-in
-1218,2012-06-05 21:25:19,127.0.0.1,19,auth,User 19 Logged-in
-1219,2012-06-05 21:28:26,127.0.0.1,<NULL>,auth,Group 22 created
-1220,2012-06-05 21:28:26,127.0.0.1,22,auth,User 22 Registered
-1221,2012-06-05 21:33:22,127.0.0.1,<NULL>,auth,Group 23 created
-1222,2012-06-05 21:33:22,127.0.0.1,23,auth,User 23 Registered
-1223,2012-06-05 21:41:32,127.0.0.1,23,auth,User 23 Logged-in
-1224,2012-06-07 16:42:07,127.0.0.1,23,auth,User 23 Logged-in
-1225,2012-06-14 15:20:42,127.0.0.1,19,auth,User 19 Logged-in
-1226,2012-06-14 15:23:17,127.0.0.1,19,auth,User 19 Logged-out
-1227,2012-06-14 15:24:20,127.0.0.1,<NULL>,auth,Group 24 created
-1235,2012-06-15 13:47:57,127.0.0.1,44,auth,User 44 Logged-out
-1236,2012-06-15 13:48:39,127.0.0.1,<NULL>,auth,Group 25 created
-1237,2012-06-15 13:48:39,127.0.0.1,45,auth,User 45 Registered
-1238,2012-06-15 14:12:45,127.0.0.1,<NULL>,auth,Group 26 created
-1239,2012-06-15 14:12:45,127.0.0.1,46,auth,User 46 Registered
-1240,2012-06-19 12:38:03,127.0.0.1,46,auth,User 46 Logged-in
-1241,2012-06-19 14:49:01,127.0.0.1,46,auth,User 46 Logged-in
-1242,2012-06-19 16:12:34,127.0.0.1,<NULL>,auth,Group 27 created
-1243,2012-06-19 16:12:34,127.0.0.1,47,auth,User 47 Registered
-1244,2012-06-21 13:53:21,127.0.0.1,46,auth,User 46 Logged-in
-1245,2012-06-21 16:11:59,127.0.0.1,46,auth,User 46 Logged-in
-1246,2012-06-21 16:15:44,127.0.0.1,46,auth,User 46 Logged-in
-1247,2012-06-21 16:18:04,127.0.0.1,46,auth,User 46 Logged-in
-1248,2012-06-21 16:20:29,127.0.0.1,46,auth,User 46 Logged-in
-1249,2012-06-21 16:20:55,127.0.0.1,46,auth,User 46 Logged-in
-1250,2012-06-21 16:21:37,127.0.0.1,46,auth,User 46 Logged-in
-1251,2012-06-21 16:23:21,127.0.0.1,46,auth,User 46 Logged-in
-1252,2012-06-21 16:24:32,127.0.0.1,46,auth,User 46 Logged-in
-1253,2012-06-21 16:27:09,127.0.0.1,46,auth,User 46 Logged-in
-1254,2012-06-21 16:31:22,127.0.0.1,46,auth,User 46 Logged-in
-1255,2012-06-21 16:33:44,127.0.0.1,46,auth,User 46 Logged-in
-1256,2012-06-21 16:34:51,127.0.0.1,46,auth,User 46 Logged-in
-1257,2012-06-21 17:24:04,127.0.0.1,46,auth,User 46 Logged-in
-1258,2012-06-21 17:26:07,127.0.0.1,46,auth,User 46 Logged-in
-1259,2012-06-26 13:08:32,127.0.0.1,46,auth,User 46 Logged-in
-1260,2012-06-26 15:33:22,127.0.0.1,46,auth,User 46 Logged-in
-1261,2012-06-27 14:10:32,127.0.0.1,46,auth,User 46 Logged-in
-1262,2012-06-28 12:02:40,127.0.0.1,46,auth,User 46 Logged-in
-1263,2012-06-28 12:07:06,127.0.0.1,46,auth,User 46 Logged-in
-1264,2012-06-28 12:14:32,127.0.0.1,46,auth,User 46 Logged-in
-1265,2012-06-28 12:15:47,127.0.0.1,46,auth,User 46 Logged-in
-1266,2012-06-28 12:16:57,127.0.0.1,46,auth,User 46 Logged-in
-1267,2012-06-28 12:22:44,127.0.0.1,46,auth,User 46 Logged-in
-1268,2012-06-28 13:30:39,127.0.0.1,46,auth,User 46 Logged-in
-1269,2012-06-28 13:49:26,127.0.0.1,46,auth,User 46 Logged-in
-1270,2012-06-28 14:33:09,127.0.0.1,46,auth,User 46 Logged-in
-1271,2012-06-28 14:35:26,127.0.0.1,46,auth,User 46 Logged-in
-1272,2012-06-28 14:39:07,127.0.0.1,46,auth,User 46 Logged-in
-1273,2012-06-28 14:55:19,127.0.0.1,46,auth,User 46 Logged-in
-1274,2012-06-28 15:22:12,127.0.0.1,46,auth,User 46 Logged-in
-1275,2012-06-29 13:52:26,127.0.0.1,46,auth,User 46 Logged-in
-1276,2012-06-30 11:18:57,127.0.0.1,46,auth,User 46 Logged-in
-1277,2012-07-02 11:19:20,127.0.0.1,46,auth,User 46 Logged-in
-1278,2012-07-02 12:15:14,127.0.0.1,46,auth,User 46 Logged-in
-1279,2012-07-02 14:27:45,127.0.0.1,46,auth,User 46 Logged-in
-1280,2012-07-02 14:28:42,127.0.0.1,46,auth,User 46 Logged-in
-1281,2012-07-02 14:32:52,127.0.0.1,46,auth,User 46 Logged-in
-1282,2012-07-02 15:49:53,127.0.0.1,46,auth,User 46 Logged-in
-1283,2012-07-02 15:55:52,127.0.0.1,46,auth,User 46 Logged-in
-1284,2012-07-03 10:44:22,127.0.0.1,46,auth,User 46 Logged-in
-1285,2012-07-03 16:07:28,127.0.0.1,46,auth,User 46 Logged-in
-1286,2012-07-03 20:21:09,127.0.0.1,46,auth,User 46 Logged-in
-1287,2012-07-03 21:13:05,127.0.0.1,46,auth,User 46 Logged-in
-1288,2012-07-04 12:13:39,127.0.0.1,46,auth,User 46 Logged-in
->>>>>>> refactor
+1137,2012-05-11 11:57:37,127.0.0.1,2,auth,User 2 Logged-in
+1138,2012-05-18 22:57:39,127.0.0.1,2,auth,User 2 Logged-in
+1139,2012-05-22 14:37:32,127.0.0.1,2,auth,User 2 Logged-in
+1140,2012-05-23 19:48:26,127.0.0.1,2,auth,User 2 Logged-in
+1141,2012-05-24 16:21:13,127.0.0.1,2,auth,User 2 Logged-in
+1142,2012-06-22 20:33:57,127.0.0.1,2,auth,User 2 Logged-in
+1143,2012-06-25 13:50:50,127.0.0.1,2,auth,User 2 Logged-in
+1144,2012-07-04 21:02:47,127.0.0.1,<NULL>,auth,Group 20 created
+1145,2012-07-04 21:02:47,127.0.0.1,18,auth,User 18 Registered
+1146,2012-07-04 21:03:31,127.0.0.1,46,auth,User 46 Logged-out
+1147,2012-07-04 21:03:37,127.0.0.1,18,auth,User 18 Logged-in
+1148,2012-07-04 22:58:28,127.0.0.1,18,auth,User 18 Logged-in
+1149,2012-07-05 13:07:48,127.0.0.1,18,auth,User 18 Logged-in
 
 
 TABLE auth_cas
 
 
 TABLE app_settings
+
+
+TABLE images
+images.id,images.image,images.title,images.description
+1,images.image.816030f94dfddea1.44726177696e6720342e737667.svg,Alexander,Full-body 3/4 pose
+2,images.image.81e2d69e1aea4d99.44726177696e672031372e737667.svg,Georgios,Full-body front
+3,images.image.a59978facee731f0.44726177696e672031382e737667.svg,Sophia,Full-body front
+4,images.image.85a960241dc29f1b.776f6d616e312e706e67.png,Maria,Upper-body 3/4 view
+5,images.image.a4d5140b25f87749.44726177696e672031392e737667.svg,Diodoros,Full-body front
+6,images.image.81526df5c2fcb480.44726177696e672032322e737667.svg,Simon,Full-body front
+7,images.image.966cd44aef28a89e.44726177696e672032372e737667.svg,Iason,Full-body front
+8,images.image.9f316c4b03f2b9ca.44726177696e6720392e737667.svg,Domus A peristyle background,Domus A peristyle background
+9,,none,Place holder if no image required
+10,,Stephanos,Stephanos
+11,,Phoibe,Phoibe
+13,,book,"A book roll, generic item"
+14,,jug,"a jug, appropriate for wine or oil; generic item"
+15,images.image.b5592e80d5fe4bb3.73796e61676f6775652e6a7067.jpg,synagogue interior,Interior view of the synagogue
+
+
+TABLE audio
+audio.id,audio.clip,audio.title,audio.description
+1,,none,Place holder if no audio required
 
 
 TABLE journals
@@ -1350,15 +1287,15 @@ tags.id,tags.tag,tags.position
 7,second-declension,<NULL>
 8,third-declension,<NULL>
 9,verbless-clause,<NULL>
-10,present-active-indicative,<NULL>
+10,present-active-indicative-singular,7
 11,future-active-indicative,<NULL>
 12,present-middle-indicative,<NULL>
 13,future-passive-indicative,<NULL>
 14,μι-conjugation,<NULL>
 15,participle,<NULL>
-16,genitive,<NULL>
+16,genitive-singular,6
 17,dative,<NULL>
-18,accusative,<NULL>
+18,accusative,7
 19,present-active-participle,<NULL>
 20,present-middle-passive-participle,<NULL>
 21,aorist-active-participle,<NULL>
@@ -1375,8 +1312,8 @@ tags.id,tags.tag,tags.position
 32,phrase,<NULL>
 33,preposition,<NULL>
 34,relative-pronoun,<NULL>
-35,personal-pronoun,<NULL>
-36,clause,<NULL>
+35,personal-pronoun,6
+36,clause,4
 37,proper-noun,<NULL>
 38,number,<NULL>
 39,imperfect-active-indicative,<NULL>
@@ -1410,60 +1347,48 @@ tags.id,tags.tag,tags.position
 67,questions1_what-who,5
 68,personal pronouns - nominative,8
 69,nominative plural nouns & pronouns,9
+70,default,0
+71,questions2_where,<NULL>
+72,definite article,5
+73,genitive of relationship,6
+74,genitive of possession,6
+75,genitive of source,6
+76,asking-names,5
+77,interrogative-pronoun,<NULL>
+78,personal pronouns - genitive,<NULL>
 
 
 TABLE locations
-locations.id,locations.location,locations.alias,locations.background
-1,Οἰκος `Α - περιστυλος,domusA,<NULL>
-2,Οἰκος `Α - τρικλινιον,<NULL>,<NULL>
-3,Οἰκος `Α - αἴθριον,<NULL>,<NULL>
+locations.id,locations.location,locations.alias,locations.bg_image
+1,Οἰκος `Α - περιστυλος,domus_A,8
+2,Οἰκος `Α - τρικλινιον,,8
+3,Οἰκος `Α - αἴθριον,,8
 4,Οἰκος `Α - ὀπτάνιον,<NULL>,<NULL>
 5,ἵερον Ἀπολλωνος,<NULL>,<NULL>
-6,πανδοκεῖον Ἀλεξανδρου,<NULL>,<NULL>
-7,στοά,<NULL>,<NULL>
-8,ἀγορά,<NULL>,<NULL>
+6,πανδοκεῖον Ἀλεξανδρου,agora,<NULL>
+7,στοά,stoa,<NULL>
+8,ἀγορά,agora,<NULL>
 9,ὅδος `Α,<NULL>,<NULL>
 10,ὅδος `Β,<NULL>,<NULL>
-11,ἡ συναγωγή,<NULL>,
-12,Οἰκος `Β - αἴθριον,<NULL>,
+11,ἡ συναγωγή,synagogue,<NULL>
+12,Οἰκος `Β - αἴθριον,<NULL>,<NULL>
+13,βαλανεῖον,bath,<NULL>
+14,γυμνασίον,gymnasion,<NULL>
 
 
 TABLE npcs
-npcs.id,npcs.name,npcs.location,npcs.image,npcs.notes
-1,Ἀλεξανδρος,|6|,npcs.image.b6da3f1e2041b840.6d616e312e737667.svg,Ἀλεξανδρος is a shop owner and good friend of Simon's household. His shop is in the agora.
-2,Μαρια,|3|1|2|4|,npcs.image.a5da29fa3962ad01.776f6d616e312e706e67.png,"Μαρία is the mother of the house, wife of Simon, a devout Hellenistic Jewish woman who has recently begun attending the meetings of ""the way"" in the house of Philip."
-3,Ἑλληνα,|1|,,
-4,Ἀγαθον,||,,<NULL>
-5,Ἀλκαιος,||,,<NULL>
-6,Χλοη,||,,<NULL>
-7,Κλεων,||,,<NULL>
-8,Διοδωρος,|1|,,
-9,Εἰρηνη,||,,<NULL>
-10,Ἐπαφρας,||,,<NULL>
-11,Ἐραστος,||,,<NULL>
-12,Εὐγενια,||,,<NULL>
-13,Εὐνικη,||,,<NULL>
-14,Γεωργιος,|3|1|2|4|7|8|9|10|,,"Γεωργιος is the second child of Σίμων and Μαρία. He is a lively, energetic boy who doesn't always apply himself the way he should to his lessons."
-15,Ἡρακλειος,||,,<NULL>
-16,Ὑπατια,||,,<NULL>
-17,Ἰασων,|3|1|2|4|7|8|,,"Ἰασων is a slave belonging to Σίμων and Μαρία. He serves as the παιδαγώγος for Γεωργιος, trying to keep him out of trouble. As a result his patience is worn very thin and he has a sharp temper."
-18,Ἰσιδωρος,||,,<NULL>
-19,Λεων,||,,<NULL>
-20,Μητροδωρα,||,,<NULL>
-21,Νηρευς,|7|8|,,"Νηρευς is a teacher, the tutor for Γεωργιος and a handful of other boys. He is a freedman and a bachelor. He holds his classes in the stoa at the city centre."
-22,Νικανωρ,||,,<NULL>
-23,Νικοστρατος ,||,,<NULL>
-24,Ὀνησιμος,||,,<NULL>
-25,Πανκρατιος,||,,<NULL>
-26,Πανθηρας,||,,<NULL>
-27,Φιλων,||,,<NULL>
-28,Φοιβη,||,,<NULL>
-29,Πυρρος,||,,<NULL>
-30,Ῥοδη,||,,<NULL>
-31,Σοφια,|3|1|2|4|11|,,"Σοφία is the daughter of Σιμών and Μαρία. She is their eldest child, but not yet of marriageable age."
-32,Στεφανος,||,,<NULL>
-33,Συντυχη,||,,<NULL>
-40,Σίμων,|3|1|2|4|7|8|,,Σίμων is the head of the household and your owner. He is the husband of Μαρία and an elder in the local synagogue.
+npcs.id,npcs.name,npcs.location,npcs.npc_image,npcs.notes
+1,Ἀλεξανδρος,|6|8|,1,Ἀλεξανδρος is a shop owner and good friend of Simon's household. His shop is in the agora.
+2,Μαρια,|3|1|2|4|,4,"Μαρία is the mother of the house, wife of Simon, a devout Hellenistic Jewish woman who has recently begun attending the meetings of ""the way"" in the house of Philip."
+8,Διοδωρος,|1|,5,Διοδωρος is the teacher who holds classes each morning in the stoa.
+14,Γεωργιος,|3|1|2|4|7|8|9|10|,2,"Γεωργιος is the second child of Σίμων and Μαρία. He is a lively, energetic boy who doesn't always apply himself the way he should to his lessons."
+17,Ἰασων,|3|1|2|4|7|8|,7,"Ἰασων is a slave belonging to Σίμων and Μαρία. He serves as the παιδαγώγος for Γεωργιος, trying to keep him out of trouble. As a result his patience is worn very thin and he has a sharp temper."
+21,Νηρευς,|7|8|,<NULL>,"Νηρευς is a teacher, the tutor for Γεωργιος and a handful of other boys. He is a freedman and a bachelor. He holds his classes in the stoa at the city centre."
+31,Σοφια,|3|1|2|4|11|,3,"Σοφία is the daughter of Σιμών and Μαρία. She is their eldest child, but not yet of marriageable age."
+32,Στεφανος,|11|,<NULL>,Στεφανος is an elder in the Jewish synagogue and a teacher in the small Christian community.
+40,Σίμων,|3|1|2|4|7|8|,6,Σίμων is the head of the household and your owner. He is the husband of Μαρία and an elder in the local synagogue.
+41,Φοιβη,|3|1|4|8|,11,Φοιβη is a house slave belonging to Simon and Maria.
+42,Ὑπατια,|3|1|2|4|12|8|,9,
 
 
 TABLE inv_items
@@ -1680,40 +1605,157 @@ TABLE step_types
 step_types.id,step_types.type,step_types.widget,step_types.step_class
 1,text response,string,step
 2,multiple choice (single option),radio,step_multipleChoice
+3,stub,none,step_stub
+4,image - text response,step_image,step_image
+5,image - multichoice,step_imageMultipleChoice,step_imageMultipleChoice
 
 
 TABLE steps
 steps.id,steps.prompt,steps.prompt_audio,steps.widget_type,steps.widget_image,steps.options,steps.response1,steps.readable_response,steps.outcome1,steps.response2,steps.outcome2,steps.response3,steps.outcome3,steps.tags,steps.tags_secondary,steps.npcs,steps.locations,steps.status
-1,"How could you write the word ""mat"" using Greek letters?",,1,,<NULL>,ματ,ματ,1,null,0.5,null,0,|61|,||,|2|1|,|3|1|2|7|,<NULL>
-2,"How could you write the word ""bat"" using Greek letters?",,1,,<NULL>,βατ,βατ,1,null,null,null,null,|61|,||,|2|1|,|3|1|2|7|,<NULL>
-3,"How could you write the word ""ball"" using Greek letters?",,1,,<NULL>,^β(α|o)λλ?.?$,"βαλ, βαλλ, βολ",null,null,null,null,null,|61|,|61|,|2|1|,|3|1|7|,<NULL>
-4,"How could you spell the word ""bet"" in Greek letters?",,1,,<NULL>,^βετ.?$,βετ,1,null,null,null,null,|61|,||,|8|2|1|,|3|1|2|7|,<NULL>
-5,"How could you spell the word ""drama"" in Greek letters?",,1,,<NULL>,^δρ(α|ο)μα.?$,"δραμα, δρομα",1,null,null,null,null,|61|,||,|8|2|,|3|1|7|,<NULL>
-6,"How could you spell the word ""milk"" in Greek letters?",,1,,<NULL>,^μιλκ.?$,μιλκ,1,null,null,null,null,|61|,||,|8|2|,|3|1|7|,<NULL>
-7,"How could you spell the word ""bib"" in Greek letters?",,1,,<NULL>,^βιβ( )?$,βιβ,1,null,null,null,null,|61|,||,|8|2|,|3|1|7|,<NULL>
-8,"How could you spell the word ""meal"" in Greek letters?",,1,,<NULL>,^μι(ε|α)?λ$,"μιλ, μιελ",1,null,null,null,null,|61|,||,|8|2|,|3|1|7|,<NULL>
+1,"How could you write the word ""meet"" using Greek letters?",1,1,9,||,^μιτ$,μιτ,1,null,0.5,null,0,|61|,||,|8|2|32|1|,|3|1|13|7|8|11|,1
+2,"How could you write the word ""bought"" using Greek letters?",<NULL>,1,<NULL>,||,^β(α|ο)τ$,"βατ, βοτ",1,null,null,null,null,|61|,||,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+3,"How could you write the word ""ball"" using Greek letters?",<NULL>,1,<NULL>,||,^β(α|o)λλ?.?$,"βαλ, βαλλ, βολ",1,null,null,null,null,|61|,|62|,|8|2|1|,|3|1|13|7|8|,<NULL>
+4,"How could you spell the word ""bet"" in Greek letters?",<NULL>,1,<NULL>,||,^βετ$,βετ,1,null,null,null,null,|61|,||,|8|2|1|,|3|1|2|7|8|,<NULL>
+5,"How could you spell the word ""drama"" in Greek letters?",<NULL>,1,<NULL>,||,^δρ(α|ο)μα.?$,"δραμα, δρομα",1,null,null,null,null,|63|,|61|62|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+6,"How could you spell the word ""mall"" in Greek letters?",<NULL>,1,<NULL>,||,^μ(α|ο)λ$,"μαλ, μολ",1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+7,"How could you spell the word ""body"" in Greek letters?",<NULL>,1,<NULL>,||,^β(ο|α)δ(υ|ι)$,"βοδι, βαδι",1,null,null,null,null,|61|,||,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+8,"How could you spell the word ""meal"" in Greek letters?",<NULL>,1,<NULL>,||,^μι(ε|α)?λ$,"μιλ, μιελ",1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
 9,"How could you spell the word ""bell"" in Greek letters?
-",,1,,<NULL>,^βελλ?( )?$,"βελ, βελλ",1,null,null,null,null,|61|,||,|8|2|,|3|1|7|,<NULL>
-10,"How could you spell the word ""pit"" in Greek letters?",,1,,<NULL>,^πιτ( )?$,πιτ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-11,"How could you spell the word ""pet"" in Greek letters?",,1,,<NULL>,^πετ( )?$,πετ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-12,"How could you spell the word ""pill"" in Greek letters?",,1,,<NULL>,^πιλλ?( )?$,"πιλ, πιλλ",1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-13,"How could you spell the word ""cup"" in Greek letters?",,1,,<NULL>,^κ(υ|α|ο)π( )?$,"κυπ, καπ, κοπ",1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-14,"How could you spell the word ""cap"" in Greek letters?",,1,,<NULL>,^καπ$,καπ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-15,"How could you spell the word ""tap"" in Greek letters?",,1,,<NULL>,^ταπ$,ταπ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-16,"How could you spell the word ""tip"" in Greek letters?",,1,,<NULL>,^τιπ$,τιπ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-17,"How could you spell the word ""thick"" in Greek letters?",,1,,<NULL>,^θικ$,θικ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-18,"How could you spell the word ""thin"" with Greek letters?",,1,,<NULL>,^θιν$,θιν,1,null,null,null,null,|63|,|61|62|,|8|2|,|3|1|7|,<NULL>
-19,"How could you spell the word ""pole"" with Greek letters?",,1,,<NULL>,^πωλλ?$,πωλ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|,<NULL>
-20,"How could you write the word ""roll"" with Greek letters?",,1,,<NULL>,^ρωλλ?$,ρωλ,1,null,null,null,null,|63|,|61|62|,|8|2|,|3|1|7|,<NULL>
-21,"How could you write the word ""tad"" with Greek letters?",,1,,<NULL>,^ταδ$,ταδ,1,null,null,null,null,|61|,|62|,|8|2|,|3|1|7|,<NULL>
-22,"How could you write the word ""tadpole"" with Greek letters?",,1,,<NULL>,^ταδπωλ$,ταδπωλ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-23,"How could you write the word ""rock"" with Greek letters?",,1,,<NULL>,^ροκ$,ροκ,1,null,null,null,null,|63|,|61|62|,|8|2|,|3|1|7|,<NULL>
-24,"How could you write the word ""bath"" with Greek letters?",,1,,<NULL>,^βαθ$,βαθ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-25,"How could you write the word ""bathtub"" with Greek letters?",,1,,<NULL>,^βαθτ(υ|ο|α)β$,"βαθτυβ, βαθτοβ",1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
-26,"How could you write the word ""sit"" with Greek letters?",,1,,<NULL>,^σιτ$,σιτ,1,null,null,null,null,|63|,|61|62|,|8|2|,|3|1|7|,<NULL>
-27,"How could you write the word ""mist"" with Greek letters?",,1,,<NULL>,^μισ(τ|δ)$,μιστ,1,null,null,null,null,|63|,|61|62|,|8|2|,|3|1|7|,<NULL>
-28,"How could you write the word ""can"" with Greek letters?",,1,,<NULL>,^καν$,καν,1,null,null,null,null,|63|,|61|62|,|8|2|,|3|1|7|,<NULL>
-29,Where did you find Ἀλεξανδρος?,,2,,|the market|the temple|the house|,the market,in the market,1,null,null,null,null,||,||,|2|,|3|1|,<NULL>
+",<NULL>,1,<NULL>,<NULL>,^βελλ?( )?$,"βελ, βελλ",1,null,null,null,null,|61|,||,|8|2|,|3|1|7|,<NULL>
+10,"How could you spell the word ""pit"" in Greek letters?",<NULL>,1,<NULL>,||,^πιτ( )?$,πιτ,1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+11,"How could you spell the word ""pet"" in Greek letters?",<NULL>,1,<NULL>,||,^πετ( )?$,πετ,1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+12,"How could you spell the word ""pill"" in Greek letters?",<NULL>,1,<NULL>,||,^πιλλ?( )?$,"πιλ, πιλλ",1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|7|8|11|,<NULL>
+13,"How could you spell the word ""cup"" in Greek letters?",<NULL>,1,<NULL>,||,^κ(υ|α|ο)π( )?$,"κυπ, καπ, κοπ",1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+14,"How could you spell the word ""cap"" in Greek letters?",<NULL>,1,<NULL>,<NULL>,^καπ$,καπ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
+15,"How could you spell the word ""tap"" in Greek letters?",<NULL>,1,<NULL>,||,^ταπ$,ταπ,1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+16,"How could you spell the word ""deep"" in Greek letters?",<NULL>,1,<NULL>,||,^διπ$,διπ,1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+17,"How could you spell the word ""thοught"" in Greek letters?",<NULL>,1,<NULL>,||,^θ(ο|α)τ$,"θοτ, θατ",1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+18,"How could you spell the word ""path"" with Greek letters?",<NULL>,1,<NULL>,||,^παθ$,παθ,1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+19,"How could you spell the word ""pole"" with Greek letters?",<NULL>,1,<NULL>,||,^πωλλ?$,πωλ,1,null,null,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|8|11|,<NULL>
+20,"How could you write the word ""roll"" with Greek letters?",1,1,9,||,^ρωλλ?$,ρωλ,1,null,null,null,null,|63|,|61|62|,|8|2|32|1|,|3|1|13|7|8|11|,<NULL>
+21,"How could you write the word ""tad"" with Greek letters?",<NULL>,1,<NULL>,<NULL>,^ταδ$,ταδ,1,null,null,null,null,|61|,|62|,|8|2|,|3|1|7|,<NULL>
+22,"How could you write the word ""tadpole"" with Greek letters?",<NULL>,1,<NULL>,<NULL>,^ταδπωλ$,ταδπωλ,1,null,null,null,null,|62|,|61|,|8|2|,|3|1|7|,<NULL>
+23,"How could you write the word ""rock"" with Greek letters?",<NULL>,1,<NULL>,<NULL>,^ροκ$,ροκ,1,null,null,null,null,|63|,|61|62|,|8|2|,|3|1|7|,<NULL>
+24,"How could you write the word ""both"" with Greek letters?",1,1,9,||,^βωθ$,βωθ,1,^βοθ$,0.5,null,null,|62|,|61|,|8|2|32|1|,|3|1|13|6|7|8|11|,<NULL>
+25,"How could you write the word ""loafer"" with Greek letters? (Remember to use the Greek letters that correspond to the *sounds* of the English word.)",1,1,9,||,^λωφ(ε)?ρ$,"λωφρ, λωφερ",1,λο(α)?φ(ε)?ρ,0.5,null,null,|63|,|61|62|,|8|2|32|1|,|3|1|13|14|6|7|8|11|,<NULL>
+26,"How could you write the word ""set"" with Greek letters? (Remember to use the Greek letters that correspond to the *sounds* of the English word.)",1,1,9,||,^σετ$,σετ,1,null,null,null,null,|63|,|61|62|,|8|2|32|1|,|3|1|13|14|6|7|8|11|,<NULL>
+27,"How could you write the word ""moist"" with Greek letters?",1,1,9,||,^μοισ(τ|δ)$,μοιστ,1,null,null,null,null,|66|,|63|61|62|,|8|2|32|1|,|3|1|13|14|6|7|8|11|,<NULL>
+28,"How could you write the word ""can"" with Greek letters?",<NULL>,1,<NULL>,<NULL>,^καν$,καν,1,null,null,null,null,|63|,|61|62|,|8|2|,|3|1|7|,<NULL>
+29,Where did you find Ἀλεξανδρος?,1,2,9,"|['the market', 'the temple', 'the house']|['the market', 'the temple', 'the house']|['the market', 'the temple', 'the house']|",the market,in the market,1,null,null,null,null,|71|,||,|2|,|3|1|,<NULL>
+30,"Hi there. Sorry, I don't have anything for you to do here at the moment. Try somewhere else.",<NULL>,3,<NULL>,||,,,0,null,null,null,null,|70|,||,|14|8|9|12|13|7|19|2|20|21|22|23|26|25|29|40|31|32|33|27|28|6|4|1|5|10|11|3|15|17|18|24|16|30|,|3|1|2|4|12|13|14|6|7|8|11|5|9|10|,<NULL>
+31,Τίς οὕτος?,1,1,1,||,^(Οὑτος Ἀλεξανδρος|Ἀλεξανδρος οὑτος)\.?$,"Οὑτος Ἀλεξανδρος., Ἀλεξανδρος οὑτος.",1,null,null,null,null,|48|67|9|,||,|8|2|32|,|1|13|7|11|,<NULL>
+32,Τίς οὕτος?,1,1,10,|[]|,^(Οὑτος Στεφανος|Στεφανος οὑτος)\.?$,"Οὑτος Στεφανος., Στεφανος οὑτος.",1,null,null,null,null,|48|67|9|,||,|8|2|1|,|1|13|7|8|11|,<NULL>
+33,"Γεωργιος was asked to write your word ""neat"" in Greek letters, but he wrote νεατ. What should he have written?",1,1,9,||,^νιτ$,νιτ,1,null,null,null,null,|63|,|61|62|,|8|,|7|,<NULL>
+34,"How would you write your English word ""ankle"" in Greek letters? (Remember to give the Greek letters that represent the right *sounds*.)",1,1,9,||,^ἀ(γ|ν)κλ$,"ἀνκλ, ἀγκλ",1,null,null,null,null,|66|,|63|61|62|,|8|2|32|1|,|13|7|8|11|,<NULL>
+35,"How would you write your English word ""empty"" with Greek letters. (Remember to use the Greek letters that correspond to the *sounds* of the English word.)",1,1,9,||,^ἐμπτ(ι|υ)$,ἐμπτι,1,null,null,null,null,|66|,|63|61|62|,|8|2|32|1|,|1|13|6|7|8|11|,<NULL>
+36,"How would you write your English word ""hello"" with Greek letters. (Remember to use the Greek letters that correspond to the *sounds* of the English word.)",1,1,9,||,^ἑλ(λ)?ω$,"ἑλω, ἑλλω",1,^(ε|ἐ)λ(λ)?(ο|ω)$,0.5,null,null,|66|,|63|61|62|,|8|2|32|1|,|1|13|6|7|8|11|,<NULL>
+37,"How would you write your English word ""lob"" with Greek letters. (Remember to use the Greek letters that correspond to the *sounds* of the English word.)",1,1,9,||,^λ(ο|α)β$,"λοβ, λαβ",1,λωβ,0.5,null,null,|62|,|61|,|8|2|32|1|,|1|13|14|6|7|8|11|,<NULL>
+38,"How could you write the word ""most"" with Greek letters? (Remember to use the Greek letters that correspond to the *sounds* of the English word.)",1,1,9,|[]|,^μωσ(τ|δ)$,μωστ,1,null,null,null,null,|63|,|61|62|,|8|2|32|1|,|3|1|13|14|6|7|8|11|,<NULL>
+39,"How would you write your English word ""tuna"" with Greek letters. (Remember to use the Greek letters that correspond to the *sounds* of the English word.)",1,1,9,||,^τ(ε|ο)?υνα$,"τυνα, τουνα",1,null,null,null,null,|63|,|61|62|,|8|2|32|1|,|13|14|6|7|8|11|,<NULL>
+40,"How would you say ""the house"" in Greek?",1,1,9,||,^ὁ οἰκος$,ὁ οἰκος,1,(το|ἡ) οἰκος,0.5,null,null,|72|,||,|8|2|32|1|,|1|13|14|6|7|8|11|,<NULL>
+41,"When Σοφία was little she once pointed to Σιμων and said ""τὸ πάτηρ"". What would she say now that she has learned to speak properly? ",1,1,9,||,^ὁ πατηρ$,ὁ πατηρ,1,^ὁ$,0.5,null,null,|72|,||,|2|,|1|,<NULL>
+42,"How would you say ""the mother"" in Greek?",1,1,9,|[]|,^ἡ ματηρ$,ἡ ματηρ,1,((το|ὁ) ματηρ)|(ἡ),0.5,null,null,|72|,||,|8|2|32|1|,|1|13|14|6|7|8|11|,<NULL>
+43,"How would you say ""the father"" in Greek?",1,1,9,||,^ὁ πατηρ$,ὁ πατηρ,1,(ἡ |το )?πατηρ,0.5,null,null,|72|,||,|8|2|32|1|,|1|13|14|6|7|8|11|,<NULL>
+44,"How would you say ""the son"" in Greek?",1,1,9,|[]|,^ὁ υἱος$,ὁ υἱος,1,(ἡ |το )?υἱος,0.5,null,null,|72|,||,|8|2|32|1|,|1|13|14|6|7|8|11|,<NULL>
+45,"When Σοφία was little she once pointed to our home and said ""ἡ οἰκος"". What would she say now that she has learned to speak properly? ",1,1,9,|[]|,^ὁ οἰκος$,ὁ οἰκος,1,^ὁ$,0.5,null,null,|72|,||,|2|,|1|,<NULL>
+46,"Ἰανος is our slave. How would you say ""the slave"" in Greek?",1,1,9,||,^ὁ δουλος$,ὁ δουλος,1,(το|ἡ) δουλος,0.5,null,null,|72|,||,|2|,|1|8|11|,<NULL>
+47,Τίς οὕτος? Οὕτος ὁ πάτηρ?,1,1,6,||,^ναι((.)?(.)?(( )?οὑτος )ὁ πατηρ)?$,"Ναι, οὑτος ὁ πατηρ., Ναι, ὁ πατηρ οὑτος. ",1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+48,Τίς αὕτη? Αὕτη ὁ πάτηρ?,1,2,3,|ναι|οὐ|,οὐ,οὐ,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+49,Αὕτη τίς? Ἡ θύγατηρ αὕτη?,1,2,3,|ναι|οὐ|,ναι,ναι,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+50,Αὕτη τίς? Ἡ θύγατηρ αὕτη?,1,2,2,|ναι||οὐ|,οὐ,οὐ,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+51,Οὕτος τίς? Ὁ δούλος οὕτος?,1,2,7,|ναι|οὐ|,ναι,ναι,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+52,Οὕτος τίς? Ὁ δούλος οὕτος?,1,2,6,|ναι|,οὐ,οὐ,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+53,Τίς αὕτη? Ἡ μάτηρ αὕτη?,1,2,4,|ναι|οὐ|,ναι,ναι,1,null,null,null,null,|72|48|67|9|,||,|8|,|7|,<NULL>
+54,Τίς αὕτη? Ἡ μάτηρ αὕτη?,1,2,3,|ναι|οὐ|,οὐ,οὐ,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+55,Αὕτη τίς? Ἡ δούλη αὕτη?,1,2,11,|ναι|οὐ|,ναι,ναι,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+56,Αὕτη τίς? Ἡ δούλη αὕτη?,1,2,7,|ναι|οὐ|,οὐ,οὐ,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+57,Αὕτη τίς? Ἡ δούλη αὕτη?,1,2,4,|ναι|οὐ|,οὐ,οὐ,1,null,null,null,null,|72|48|67|9|,||,|8|,|1|7|,<NULL>
+58,"How would you describe Γεωργιος if you're thinking about his relationship with Σοφια? Τίς Γεωργιος? 
+
+(Please answer in a full clause.)",1,1,2,||,^(?P<a>οὑτος\s|Γεωργιος\s)?(ὁ\s)?ἀδελφος\s?(?(a)|(οὑτος|Γεωργιος))[.]?$,Οὑτος ὁ ἀδελφος.|Ἀδελφος Γεωργιος.|Ὁ ἀδελφος οὑτος.|Ἀδελφος οὑτος.|Οὑτος ἀδελφος.|Γεωργιος ἀδελφος.,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|3|1|7|,<NULL>
+59,"How would you describe Γεωργιος if you're thinking about his relationship with Μαρια? Τίς Γεωργιος? 
+
+(Please answer in a full clause.)",1,1,2,|[]|,^(?P<a>οὑτος\s|Γεωργιος\s)?(ὁ\s)?υἱος\s?(?(a)|(οὑτος|Γεωργιος))[.]?$,Οὑτος ὁ υἱος.|Υἱος Γεωργιος.|Ὁ υἱος οὑτος.|υἱος οὑτος.|οὑτος υἱος.|Γεωργιος υἱος.,1,null,null,null,null,|72|48|67|9|,||,|8|,|7|,<NULL>
+60,"How would you describe Σοφια if you're thinking about her relationship with Μαρια? Τίς Σοφια? 
+
+(Please answer in a full clause.)",1,1,3,||,^(?P<a>(αὑτη\s|Σοφια\s))?(ἡ\s)?θυγατηρ\s?(?(a)|Σοφια)[.]?$,"Αὑτη ἡ θυγατηρ., Θυγατηρ Σοφια.",1,null,null,null,null,|72|48|67|9|,||,|8|,|7|,<NULL>
+61,"How would you describe Σοφια if you're thinking about her relationship with Σιμων? Τίς Σοφια? 
+
+(Please answer in a full clause.)",1,1,3,|[]|,^(?P<a>(αὑτη\s|Σοφια\s))?(ἡ\s)?θυγατηρ\s?(?(a)|Σοφια)[.]?$,"Αὑτη ἡ θυγατηρ., Θυγατηρ Σοφια.",1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+62,"How would you describe Σοφια if you're thinking about her relationship with Γεωργιος? Τίς Σοφια? 
+
+(Please answer in a full clause.)",1,1,3,||,^(?P<a>(αὑτη\s|Σοφια\s))?(ἡ\s)?ἀδελφη\s?(?(a)|Σοφια)[.]?$,Αὑτη ἡ ἀδελφη.|Ἀδελφη Σοφια.,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+63,"How would you describe Γεωργιος if you're thinking about his relationship with Σιμων? Τίς Γεωργιος? 
+
+(Please answer in a full clause.)",1,1,2,|['[]']|,^(?P<a>οὑτος\s|Γεωργιος\s)?(ὁ\s)?υἱος\s?(?(a)|(οὑτος|Γεωργιος))[.]?$,Οὑτος ὁ υἱος.|Υἱος Γεωργιος.|Ὁ υἱος οὑτος.|υἱος οὑτος.|οὑτος υἱος.|Γεωργιος υἱος.,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+64,"How would you describe Σιμων if you're thinking about his relationship with Γεωργιος? Τίς Σιμων? 
+
+(Please answer in a full clause.)",1,1,6,||,^(?P<a>οὑτος\s|Σιμων\s)?(ὁ\s)?πατηρ\s?(?(a)|(οὑτος|Σιμων))[.]?$,Οὑτος ὁ πατηρ.|Πατηρ Σιμων.|Ὁ πατηρ οὑτος.|Πατηρ οὑτος.|Οὑτος πατηρ.|Σιμων πατηρ.,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+65,"How would you describe Σιμων if you're thinking about his relationship with Σοφια? Τίς Σιμων? 
+
+(Please answer in a full clause.)",1,1,6,|[]|,^(?P<a>οὑτος\s|Σιμων\s)?(ὁ\s)?πατηρ\s?(?(a)|(οὑτος|Σιμων))[.]?$,Οὑτος ὁ πατηρ.|Πατηρ Σιμων.|Ὁ πατηρ οὑτος.|Πατηρ οὑτος.|Οὑτος πατηρ.|Σιμων πατηρ.,1,null,null,null,null,|72|48|67|9|,||,|8|2|,|1|7|,<NULL>
+66,"I need you to go and see what Alexander has in his market stall in the ἀγορά.
+
+(Go to the map, select the ἀγορά, and speak to the person you meet there. Then return and report back to Maria.)",1,3,9,||,,,null,null,null,null,null,||,||,|2|,|3|1|,<NULL>
+67,"Hello! I have some fine μιτ here, fresh this morning. Go and tell Μαρια she should hurry if she wants some!",1,3,9,||,,,null,null,null,null,null,|61|,||,|1|,|6|8|,<NULL>
+68,"So, what did Ἀλεξανδρος have? (Give me the word using English letters.)",1,1,9,||,^(he/s|Alexander\s|Ἀλεξανδρος\s)?(had\s)?(some\s?)meat$,"meat, Ἀλεξανδρος had some meat.",1,mit,0.5,Αλεξανδρος|Αλεξανδερ|Ἀλεξανδερ,0.5,|61|,||,|2|,|3|1|,<NULL>
+69,Hello! I have some fresh βρεδ here. Μαρια had better come soon before it's all gone!,1,3,9,||,,,null,null,null,null,null,|63|,|61|62|,|1|,|6|8|,<NULL>
+70,"So, what did Ἀλεξανδρος have? (Give me the word using English letters.)",1,1,9,|[]|,^(he/s|Alexander\s|Ἀλεξανδρος\s)?(had\s)?(some\s?)bread$,"bread, Ἀλεξανδρος had some bread.",1,bred,0.5,Αλεξανδρος|Αλεξανδερ|Ἀλεξανδερ,0.5,|63|,|61|62|,|2|,|3|1|,<NULL>
+71,"How would you write the English word ""head"" using Greek letters?",1,1,9,||,ἑδ,ἑδ,1,ἐδ|εδ|εαδ|ἑαδ,0.5,null,null,|61|,||,|8|2|32|1|,|3|1|6|7|8|11|,<NULL>
+72,"How would you write the English word ""hard"" using Greek letters?",1,1,9,||,ἁρδ,ἁρδ,1,αρδ|ἀρδ|ηαρδ|ἡαρδ|ἡαρδ,0.5,null,null,|63|,|61|62|,|8|2|32|1|,|3|1|6|7|8|11|,<NULL>
+73,"How would you write the English word ""song"" using Greek letters?",1,1,9,||,σογγ|σαγγ,σογγ|σαγγ,1,σονγ|σανγ|σωγγ|σωνγ,0.5,null,null,|63|,|61|62|,|8|2|32|1|,|3|1|6|7|8|11|,<NULL>
+74,"The spring is my favourite season. How would you write the English word ""spring"" using Greek letters?",1,1,9,||,σπριγγ|σπρεγγ,σπριγγ|σπρεγγ,1,σπρινγ|σπρενγ,0.5,null,null,|63|,|61|62|,|2|,|3|1|,<NULL>
+75,"I'm a carpenter and wood-worker by trade, so my main tools are my hammer and nails. How would you write the English word ""hammer"" using Greek letters?",1,1,9,||,ἁμμ?ε?ρ,ἁμερ|ἁμαρ,1,[ηἡἠ]αμμ?ε?ρ,0.5,null,null,|63|,|61|62|,|32|,|11|,<NULL>
+76,"I'm a carpenter and wood-worker by trade, so my main tools are my hammer and nails. How would you write the English word ""nail"" using Greek letters?",1,1,9,||,νηλ|νηελ|νηαλ|νηιλ,νηλ,1,ναιλ,0.5,null,null,|63|,|61|62|,|32|,|11|,<NULL>
+77,"So, what did Ἀλεξανδρος have? (Give me the word using English letters.)",1,1,9,||,^(he/s|Alexander\s|Ἀλεξανδρος\s)?(had\s)?(some\s?)wine$,wine|Ἀλεξανδρος had some wine.,1,ouain|wain,0.5,Αλεξανδρος|Αλεξανδερ|Ἀλεξανδερ,0.5,|66|,|63|61|62|,|2|,|3|1|,<NULL>
+78,Hello! I have some good οὐαιν here. Μαρια can have three jars full if she wants them.,1,3,9,||,,,null,null,null,null,null,|66|,|63|61|62|,|1|,|6|8|,<NULL>
+79,If you are going to serve in this οἰκος you will need to understand people's relationships. Τίς κυριος Φοιβης?,1,1,11,||,^(?P<a>(κυριος|Φοιβης|αὐτης)\s(κυριος|Φοιβης|αὐτης)\s)?(ἐστιν?\s)?Σιμων(\sἐστιν?)?(?(a)=|(\s(κυριος|Φοιβης|αὐτης)\s(κυριος|Φοιβης|αὐτης)))?(\sἐστιν?)?\s?\.?$,Σιμων.|Σιμων κυριος αὐτης.|Σιμων κυριος Φοιβης.|Σιμων αὐτης κυριος.|Σιμων Φοιβης κυριος.|Σιμων ἐστιν κυριος αὐτης.|Κυριος αὐτης Σιμων.|Κυριος Φοιβης Σιμων.|Αὐτης κυριος Σιμων.|Φοιβης κυριος Σιμων.|Φοιβης κυριος Σιμων ἐστιν.|Φοιβης κυριος ἐστιν Σιμων.,1,null,null,null,null,|73|16|,|63|61|66|62|67|9|,|2|,|3|1|,<NULL>
+80,If you are going to serve in this οἰκος you will need to understand people's relationships. Τίς κυριος ἐμου?,1,1,9,||,^(?P<a>(κυριος|σου)\s(κυριος|σου)\s)?(ἐστιν?\s)?Σιμων(\sἐστιν?)?(?(a)=|(\s(κυριος|σου)\s(κυριος|σου)))?(\sἐστιν?)?\s?\.?$,Σιμων.|Σιμων κυριος σου.|Σιμων σου κυριος.|Σιμων ἐστιν κυριος σου.|Κυριος σου Σιμων.|Σου κυριος Σιμων.|Σου κυριος Σιμων ἐστιν.|Σου κυριος ἐστιν Σιμων.,1,null,null,null,null,|73|16|,|63|61|66|62|67|9|,|2|,|3|1|,<NULL>
+81,If you are going to serve in this οἰκος you will need to understand people's relationships. Τίς κυριος Ἰασωνος?,1,1,7,||,^(?P<a>(κυριος|Ἰασωνος|αὐτου)\s(κυριος|Ἰασωνος|αὐτου)\s)?(ἐστιν?\s)?Σιμων(\sἐστιν?)?(?(a)=|(\s(κυριος|Ἰασωνος|αὐτου)\s(κυριος|Ἰασωνος|αὐτου)))?(\sἐστιν?)?\s?\.?$,Σιμων.|Σιμων κυριος αὐτου.|Σιμων κυριος Ἰασωνος.|Σιμων αὐτου κυριος.|Σιμων Ἰασωνος κυριος.|Σιμων ἐστιν κυριος αὐτου.|Κυριος αὐτου Σιμων.|Κυριος Ἰασωνος Σιμων.|Αὐτου κυριος Σιμωνος.|Ἰασωνος κυριος Σιμων.|Ἰασωνος κυριος Σιμων ἐστιν.|Ἰασωνος κυριος ἐστιν Σιμων.,1,null,null,null,null,|73|16|,|63|61|66|62|67|9|,|8|2|,|3|1|7|,<NULL>
+82,If you are going to serve in the οἰκος Μαριας you will need to understand the household's relationships. Τίς κυριος Μαριας?,1,1,4,||,^(?P<a>(κυριος|Μαριας|αὐτης)\s(κυριος|Μαριας|αὐτης)\s)?(ἐστιν?\s)?Σιμων(\sἐστιν?)?(?(a)=|(\s(κυριος|Μαριας|αὐτης)\s(κυριος|Μαριας|αὐτης)))?(\sἐστιν?)?\s?\.?$,Σιμων.|Σιμων κυριος αὐτης.|Σιμων κυριος Μαριας.|Σιμων αὐτης κυριος.|Σιμων Μαριας κυριος.|Σιμων ἐστιν κυριος αὐτης.|Κυριος αὐτης Σιμων.|Κυριος Μαριας Σιμων.|Αὐτης κυριος Σιμων.|Μαριας κυριος Σιμων.|Μαριας κυριος Σιμων ἐστιν.|Μαριας κυριος ἐστιν Σιμων.,1,null,null,null,null,|73|16|,|63|61|66|62|67|9|,|8|,|7|,<NULL>
+83,If you are going to serve in the οἰκος Μαριας you will need to understand the household's relationships. Τίς Σοφιας ἀδελφος?,1,1,3,||,^(?P<a>(ἀδελφος|Σοφιας|αὐτης)\s(ἀδελφος|Σοφιας|αὐτης)\s)?(ἐστιν?\s)?Γεωργιος(\sἐστιν?)?(?(a)=|(\s(ἀδελφος|Σοφιας|αὐτης)\s(ἀδελφος|Σοφιας|αὐτης)))?(\sἐστιν?)?\s?\.?$,Γεωργιος.|Γεωργιος ἀδελφος Σοφιας.|Γεωργιος Σοφιας ἀδελφος.|Γεωργιος ἐστιν ἀδελφος Σοφιας.|Ἀδελφος Σοφιας Γεωργιος.|Σοφιας ἀδελφος Γεωργιος.|Σοφιας ἀδελφος Γεωργιος ἐστιν.|Σοφιας ἀδελφος ἐστιν Γεωργιος.,1,null,null,null,null,|73|16|,|63|61|66|62|67|9|,|8|2|,|3|1|7|,<NULL>
+84,"If someone asks you ""Τίς Μαρια?"" how might you answer?
+
+(Think about one of her family relationships.)",1,1,9,||,^(?P<a>Μαρια\s(ἐστιν?\s)?)?(?P<b>(γυνη\s|ματηρ\s))?(Γεωργιου|Σοφιας|Σιμωνος)(?(b)|(\sγυνη|\sματηρ))(?(a)|((\sἐστιν?)?\sΜαρια(\sἐστιν?)?))?[.]?$,Μαρια ματηρ Γεωργιου.|Γυνη Σιμωνος Μαρια.|Μαρια Σοφιας ματηρ.|Μαρια Γεωργιου ματηρ.|Μαρια ἐστιν Σιμωνος γυνη.|Μαρια γυνη Σιμωνος.|Γυνη Σιμωνος ἐστιν Μαρια.|Γυνη Σιμωνος Μαρια ἐστιν.,1,null,null,null,null,|73|16|,|67|,|8|1|17|,|3|1|6|7|8|,<NULL>
+85,"If someone asks you ""Τίς Σιμων?"" how might you answer?
+
+(Think about one of his family relationships.)",1,1,6,||,^(?P<a>Σιμων\s(ἐστιν?\s)?)?(?P<b>(γυνη\s|ματηρ\s))?(Γεωργιου|Σοφιας|Σιμωνος)(?(b)|(\sγυνη|\sματηρ))(?(a)|((\sἐστιν?)?\sΣιμων(\sἐστιν?)?))?[.]?$,Σιμων πατηρ Γεωργιου.|Ἀνηρ Μαριας Σιμων.|Σιμων Σοφιας πατηρ.|Σιμων Γεωργιου πατηρ.|Σιμων ἐστιν Μαριας ἀνηρ.|Σιμων ἀνηρ Μαριας.|Ἀνηρ Μαριας ἐστιν Σιμων.|Ἀνηρ Μαριας Σιμων ἐστιν.,1,null,null,null,null,|73|16|,|67|,|8|2|1|17|,|3|1|6|7|8|,<NULL>
+86,"If someone asks you ""Τίς Ἰασων?"" how might you answer?
+
+(Think about one of his household relationships.)",1,1,7,||,^(?P<c>Ἰασων\s)?(?P<a>ἐστιν?\s)?(?P<b>δουλος\s)?(Μαριας|Σιμωνος)(\sκαι(\sΜαριας|\sΣιμωνος))?(?(b)|\sδουλος)(?(a)|\sἐστιν?)?(?(c)|\sἸασων)(?(a)|\sἐστιν?)?[.]?$,Ἰασων δουλος Σιμωνος.|Ἰασων Μαριας δουλος.|Ἰασων Μαριας δουλος ἐστιν.,1,null,null,null,null,|73|16|,|67|,|8|2|1|17|,|3|1|6|7|8|,<NULL>
+87,"If someone asks you ""Τίς Φοιβη?"" how might you answer?
+
+(Think about one of his household relationships.)",1,1,11,||,^(?P<c>Φοιβη\s)?(?P<a>ἐστιν?\s)?(?P<b>δουλη\s)?(Μαριας|Σιμωνος)(\sκαι(\sΜαριας|\sΣιμωνος))?(?(b)|\sδουλη)(?(a)|\sἐστιν?)?(?(c)|\sΦοιβη)(?(a)|\sἐστιν?)?[.]?$,Φοιβη δουλη Σιμωνος.|Φοιβη Μαριας δουλη.|Φοιβη Μαριας δουλη ἐστιν.,1,null,null,null,null,|73|16|,|67|,|8|1|17|,|3|1|6|7|8|,<NULL>
+88,"If someone asks you ""Τίς Γεωργιος?"" how might you answer?
+
+(Think about one of his household relationships.)",1,1,2,||,^(?P<c>Γεωργιος\s)?(?P<a>ἐστιν?\s)?(?P<b>((?s)ἀδελφος\s)|(?ms)υἱος\s)?((?P<s>Σοφιας)|(?P<ms>(Μαριας|Σιμωνος)(\sκαι(\sΜαριας|\sΣιμωνος))?))(?(b)|((?P=s)\sἀδελφος|(?P=ms)\sυἱος))(?(a)|\sἐστιν?)?(?(c)|\sΓεωργιος)(?(a)|\sἐστιν?)?[.]?$,Γεωργιος υἱος Μαριας.|Γεωργιος υἱος Μαριας και Σιμωνος.|Γεωργιος ἀδελφος Σοφιας.|Γεωργιος ἀδελφος Σοφιας ἐστιν.|Ἀδελφος Σοφιας Γεωργιος ἐστιν.|Υἱος Μαριας Γεωργιος.|Γεωργιος ἐστιν υἱος Σιμωνος.|Γεωργιος υἰος Σοφιας ἐστιν.|Γεωργιος Σοφιας υἱος ἐστιν.,1,null,null,null,null,|73|16|,|67|,|8|1|17|,|3|1|6|7|8|,<NULL>
+89,"Χαιρειν, [[user]]! Please take this parcel to Maria. When she asks who it came from, tell her it came ἐμου.",1,3,9,||,,,null,null,null,null,null,|75|16|,|35|,|1|,|6|8|,<NULL>
+90,Εὐχαριστω σε. Who is this package from? Στεφανου αὐτο?,1,1,9,||,"^(Οὐ[,.]?\s)?(?P<a>Αὐτο\s)?(?P<b>ἐστιν?\s)?Ἀλεξανδρου(?(b)|(?P<c>\sἐστιν?))?(?(a)|\sαὐτο)(?(c)|(?(b)|\sἐστιν))[.]?$","Οὐ. Αὐτο Ἀλεξανδρου.|Οὐ, Ἀλεξανδρου αὐτο.|Αὐτο Ἀλεξανδρου.",1,Ἀλεξανδρου,0.5,null,null,|75|16|,|36|35|9|,|2|,|3|1|,<NULL>
+91,"Χαιρειν, [[user]]! Please take this book to Στεφανος. When he asks who it came from, tell her it came ἐμου.",1,3,9,||,,,null,null,null,null,null,|75|16|,|35|,|1|,|3|1|,<NULL>
+92,Εὐχαριστω σε. Who is this book from? Μαριας αὐτο?,1,1,9,||,"^(Ναι[,.]?\s)?(?P<a>Αὐτο\s)?(?P<b>ἐστιν?\s)?Μαριας(?(b)|(?P<c>\sἐστιν?))?(?(a)|\sαὐτο)(?(c)|(?(b)|\sἐστιν))[.]?$","Ναι. Αὐτο Mαριας.|Ναι, Mαριας αὐτο.|Αὐτο Mαριας.",1,Μαριας,0.5,null,null,|75|16|,|36|35|9|,|32|,|11|,<NULL>
+93,"[[user]], take this book to Μαρια. When she asks who it came from, tell her it came ἐμου.",1,3,9,||,,,null,null,null,null,null,|75|16|,|35|,|32|,|11|,<NULL>
+94,Εὐχαριστω σε. Who is this book from? Διοδωρου αὐτο?,1,1,9,|[]|,"^(Οὐ[,.]?\s)?(?P<a>Αὐτο\s)?(?P<b>ἐστιν?\s)?Στεφανου(?(b)|(?P<c>\sἐστιν?))?(?(a)|\sαὐτο)(?(c)|(?(b)|\sἐστιν))[.]?$","Οὐ. Αὐτο Στεφανου.|Οὐ, Στεφανου αὐτο.|Αὐτο Στεφανου.",1,Στεφανου,0.5,null,null,|75|16|,|36|35|9|,|2|,|3|1|,<NULL>
+95,"[[user]], please take this jug of wine to Ἀλεξανδρος. When he asks who it is from, tell him it came Μαριας.",1,3,9,||,,,null,null,null,null,null,|75|16|,|35|,|17|,|3|1|2|4|12|,<NULL>
+96,Εὐχαριστω σε. Who is this wine from? Μαριας αὐτο?,1,1,9,|[]|,"^(Ναι[,.]?\s)?(?P<a>Αὐτο\s)?(?P<b>ἐστιν?\s)?Μαριας(?(b)|(?P<c>\sἐστιν?))?(?(a)|\sαὐτο)(?(c)|(?(b)|\sἐστιν))[.]?$","Ναι. Αὐτο Mαριας.|Ναι, Mαριας αὐτο.|Αὐτο Mαριας.",1,Μαριας,0.5,null,null,|75|16|,|36|35|9|,|1|,|6|8|,<NULL>
+97,Τίς ἡ Σοφιας ματηρ?,1,1,3,||,^(?P<a>Μαρια\s)?(?P<b>ἐστιν?\s)?(?P<d>ἡ\s)?(?P<c>ματηρ\s)?Σοφιας(?(a)|(?P<e>\sΜαρια))?(?(c)|(?(d)|\sἡ)\sματηρ)(?(b)\sἐστιν?)?(?(a)|(?(e)|\sΜαρια))(?(b)|\sἐστιν?)?[.]?$,ἡ Σοφιας ματηρ Μαρια.|Σοφιας ἡ ματηρ Μαρια.|Σοφιας Μαρια ἡ ματηρ.|Μαρια ἐστιν ἡ ματηρ Σοφιας.|Μαρια Σοφιας ἡ ματηρ ἐστιν.,1,Μαρια,0.5,null,null,|73|16|,|37|67|9|,|8|40|32|1|,|3|1|2|6|7|8|11|,<NULL>
+98,Τίς ὁ Γεωργιου πατηρ?,1,1,2,||,^(?P<a>Σιμων\s)?(?P<b>ἐστιν?\s)?(?P<d>ὁ\s)?(?P<c>πατηρ\s)?Γεωργιου(?(a)|(?P<e>\sΣιμων))?(?(c)|(?(d)|\sὁ)\sπατηρ)(?(b)\sἐστιν?)?(?(a)|(?(e)|\sΣιμων))(?(b)|\sἐστιν?)?[.]?$,ὁ Γεωργιου πατηρ Σιμων.|Γεωργιου ὁ πατηρ Σιμων.|Γεωργιου Σιμων ὁ πατηρ.|Σιμων ἐστιν ὁ πατηρ Γεωργιου.|Σιμων Γεωργιου ὁ πατηρ ἐστιν.,1,Σιμων,0.5,null,null,|73|16|,|37|67|9|,|8|2|32|1|,|3|1|2|6|7|8|11|,<NULL>
+99,Τίς ὁ Γεωργιου ἀδελφη?,1,1,2,||,^(?P<a>Σοφια\s)?(?P<b>ἐστιν?\s)?(?P<d>ἡ\s)?(?P<c>ἀδελφη\s)?Γεωργιου(?(a)|(?P<e>\sΣοφια))?(?(c)|(?(d)|\sἡ)\sἀδελφη)(?(b)\sἐστιν?)?(?(a)|(?(e)|\sΣοφια))(?(b)|\sἐστιν?)?[.]?$,ὁ Γεωργιου ἀδελφη Σοφια.|Γεωργιου ἡ ἀδελφη Σοφια.|Γεωργιου Σοφια ἡ ἀδελφη.|Σοφια ἐστιν ἡ ἀδελφη Γεωργιου.|Σοφια Γεωργιου ἡ ἀδελφη ἐστιν.,1,Σοφια,0.5,null,null,|73|16|,|37|67|9|,|8|2|32|1|,|3|1|2|6|7|8|11|,<NULL>
+100,Τίς ἡ ματηρ Γεωργιου?,1,1,2,||,^(?P<a>Μαρια\s)?(?P<b>ἐστιν?\s)?(?P<d>ἡ\s)?(?P<c>ματηρ\s)?Γεωργιου(?(a)|(?P<e>\sΜαρια))?(?(c)|(?(d)|\sἡ)\sματηρ)(?(b)\sἐστιν?)?(?(a)|(?(e)|\sΜαρια))(?(b)|\sἐστιν?)?[.]?$,ἡ Γεωργιου ματηρ Μαρια.|Γεωργιου ἡ ματηρ Μαρια.|Γεωργιου Μαρια ἡ ματηρ.|Μαρια ἐστιν ἡ ματηρ Γεωργιου.|Μαρια Γεωργιου ἡ ματηρ ἐστιν.,1,Μαρια,0.5,null,null,|73|16|,|37|67|9|,|8|40|32|1|,|3|1|2|6|7|8|11|,<NULL>
+101,"Is this an English clause?
+
+""The cat sat.""",1,2,9,|ναι||οὐ|,ναι,ναι,1,null,null,null,null,|36|,||,|14|,|7|,<NULL>
+102,Χαιρε!\n\n(Offer a greeting in return and then ask what the speaker's name is.),1,1,9,||,"^Χαιρε[!.,;]? (?P<c>Τί )?(?P<e>ἐστιν? )?(?P<a>σου )?(?P<d>Τί )?το (?P<b>σου )?ὀνομα(?(a)|(?(b)| σου))(?(c)|(?(d)| Τί))(?(e)| ἐστιν)?[?.]?$",Χαιρε. Τί το ὀνομα σου?|Χαιρε. Τί το σου ὀνομα?|Χαιρε. Τί σου το ὀνομα?|Χαιρε. Σου τί το ὀνομα?|Χαιρε. Σου το ὀνομα τί?|Χαιρε! Σου το ὀνομα τί ἐστιν?,1,null,null,null,null,|76|9|,|1|,|14|8|2|21|40|31|32|41|1|17|42|,|2|4|12|13|14|6|7|8|11|5|9|10|,<NULL>
+103,Τὸ ὄνομά μου Διοδωρος. Τί τὸ σου ὄνομά?,1,1,9,||,^(?P<a>.+ )?(?P<d>ἐστιν?)?(?P<b>μου )?Το (?P<c>μου )?ὀνομα(?(b)|(?(c)| μου))(?P<e> ἐστιν?)?(?(a)| .+)(?(d)|(?(e)| ἐστιν?))?[.;!]?$,Tο ὀνομα μου Ἰαν.|Ἰαν το μου ὀνομα.|Ἰαν μου το ὀνομα.|Ἰαν ἐστι μου το ὀνομα.|Ἰαν μου το ὀνομα ἐστιν.,1,null,null,null,null,|76|,|74|77|3|9|,|8|,|7|,<NULL>
+104,Go and learn the name of the person you meet in ἡ στοά.,1,3,9,||,,,null,null,null,null,null,|76|,||,|2|,|3|1|,<NULL>
+105,Χαίρε. Τί τὸ ὄνομά αὐτοῦ?,1,1,5,||,^(?P<f>ἐστιν? )?(?P<a>Διοδωρος )?(?P<d>ἐστιν? )?(?P<b>αὐτου )?Το (?P<c>αὐτου )?ὀνομα(?(b)|(?(c)| αὐτου))(?P<e> ἐστιν?)?(?(a)| Διοδωρος)(?(d)|(?(e)|(?(d)| ἐστιν?)))?[.;!]?$,Διοδωρος το ὀνομα αὐτου.|Το αὐτου ὀνομα Διοδωρος.|Το αὐτου ὀνομα ἐστιν Διοδωρος.|Ἐστι το αὐτου ὀνομα Διοδωρος.,1,null,null,null,null,|76|,|74|16|78|35|37|67|9|,|2|,|3|1|,<NULL>
+106,Τὸ ὄνομά μου Ἀλεξανδρος. Τί τὸ σου ὄνομά?,1,1,9,||,^(?P<a>.+ )?(?P<d>ἐστιν?)?(?P<b>μου )?Το (?P<c>μου )?ὀνομα(?(b)|(?(c)| μου))(?P<e> ἐστιν?)?(?(a)| .+)(?(d)|(?(e)| ἐστιν?))?[.;!]?$,Tο ὀνομα μου Ἰαν.|Ἰαν το μου ὀνομα.|Ἰαν μου το ὀνομα.|Ἰαν ἐστι μου το ὀνομα.|Ἰαν μου το ὀνομα ἐστιν.,1,null,null,null,null,|76|,|74|77|3|9|,|1|,|6|8|,<NULL>
+107,Go and learn the name of the person you meet in ἡ ἀγορά.,1,3,9,||,,,null,null,null,null,null,|76|,||,|2|,|3|1|,<NULL>
+108,Χαίρε. Τί τὸ ὄνομά αὐτοῦ?,1,1,1,||,^(?P<f>ἐστιν? )?(?P<a>Ἀλεξανδρος )?(?P<d>ἐστιν? )?(?P<b>αὐτου )?Το (?P<c>αὐτου )?ὀνομα(?(b)|(?(c)| αὐτου))(?P<e> ἐστιν?)?(?(a)| Ἀλεξανδρος)(?(d)|(?(e)|(?(d)| ἐστιν?)))?[.;!]?$,Ἀλεξανδρος το ὀνομα αὐτου.|Το αὐτου ὀνομα Ἀλεξανδρος.|Το αὐτου ὀνομα ἐστιν Ἀλεξανδρος.|Ἐστι το αὐτου ὀνομα Ἀλεξανδρος.,1,null,null,null,null,|76|,|74|16|78|35|37|67|9|,|2|,|3|1|,<NULL>
+109,Go and learn the name of the person you meet in ἡ συναγωγή.,1,3,9,||,,,null,null,null,null,null,|76|,||,|2|,|3|1|,<NULL>
+110,Ἰασων τὸ ὄνομά μου . Τί σου τὸ ὄνομά?,1,1,9,|[]|,^(?P<a>.+ )?(?P<d>ἐστιν?)?(?P<b>μου )?Το (?P<c>μου )?ὀνομα(?(b)|(?(c)| μου))(?P<e> ἐστιν?)?(?(a)| .+)(?(d)|(?(e)| ἐστιν?))?[.;!]?$,Tο ὀνομα μου Ἰαν.|Ἰαν το μου ὀνομα.|Ἰαν μου το ὀνομα.|Ἰαν ἐστι μου το ὀνομα.|Ἰαν μου το ὀνομα ἐστιν.,1,null,null,null,null,|76|,|74|77|3|9|,|17|,|11|,<NULL>
+111,Χαίρε. Τί τὸ αὐτοῦ ὄνομά?,1,1,7,||,^(?P<f>ἐστιν? )?(?P<a>Ἰασων )?(?P<d>ἐστιν? )?(?P<b>αὐτου )?Το (?P<c>αὐτου )?ὀνομα(?(b)|(?(c)| αὐτου))(?P<e> ἐστιν?)?(?(a)| Ἰασων)(?(d)|(?(e)|(?(d)| ἐστιν?)))?[.;!]?$,Ἰασων το ὀνομα αὐτου.|Το αὐτου ὀνομα Ἰασων.|Το αὐτου ὀνομα ἐστιν Ἰασων.|Ἐστι το αὐτου ὀνομα Ἰασων.,1,null,null,null,null,|76|,|74|16|78|35|37|67|9|,|2|,|3|1|,<NULL>
+112,Τὸ ὄνομά μου Σοφια. Τί τὸ σου ὄνομά?,1,1,9,||,^(?P<a>.+ )?(?P<d>ἐστιν?)?(?P<b>μου )?Το (?P<c>μου )?ὀνομα(?(b)|(?(c)| μου))(?P<e> ἐστιν?)?(?(a)| .+)(?(d)|(?(e)| ἐστιν?))?[.;!]?$,Tο ὀνομα μου Ἰαν.|Ἰαν το μου ὀνομα.|Ἰαν μου το ὀνομα.|Ἰαν ἐστι μου το ὀνομα.|Ἰαν μου το ὀνομα ἐστιν.,1,null,null,null,null,|76|,|74|77|3|9|,|31|,|8|,<NULL>
+113,Χαίρε. Τί αὐτῆς τὸ ὄνομά?,1,1,3,||,^(?P<f>ἐστιν? )?(?P<a>Σοφια )?(?P<d>ἐστιν? )?(?P<b>αὐτου )?Το (?P<c>αὐτου )?ὀνομα(?(b)|(?(c)| αὐτου))(?P<e> ἐστιν?)?(?(a)| Σοφια)(?(d)|(?(e)|(?(d)| ἐστιν?)))?[.;!]?$,Σοφια το ὀνομα αὐτου.|Το αὐτου ὀνομα Σοφια.|Το αὐτου ὀνομα ἐστιν Σοφια.|Ἐστι το αὐτου ὀνομα Σοφια.,1,null,null,null,null,|76|,|74|16|78|35|37|67|9|,|2|,|3|1|,<NULL>
 
 
 TABLE question_records
@@ -3431,24 +3473,20 @@ question_records.id,question_records.name,question_records.question,question_rec
 
 
 TABLE tag_progress
-<<<<<<< HEAD
-=======
 tag_progress.id,tag_progress.name,tag_progress.latest_new
-30,<NULL>,1
-31,46,1
->>>>>>> refactor
+1,18,1
 
 
 TABLE paths
 paths.id,paths.label,paths.steps
-1,,|1|
-2,translit - mat,|1|
-3,translit - bat,|2|
+1,translit - head,|71|
+2,translit - meet,|1|
+3,translit - bought,|2|
 4,translit - ball,|3|
 5,translit - bet,|4|
 6,translit - drama,|5|
-7,translit - milk,|6|
-8,translit - bib,|7|
+7,translit - mall,|6|
+8,translit - body,|7|
 9,translit - meal,|8|
 10,translit - bell,|9|
 11,translit - pit,|10|
@@ -3456,20 +3494,84 @@ paths.id,paths.label,paths.steps
 13,translit - pill,|12|
 14,translit - cup,|13|
 15,translit - tap,|15|
-16,translit - tip,|16|
-17,translit - thick,|17|
-18,translit - thin,|18|
+16,translit - deep,|16|
+17,translit - thought,|17|
+18,translit - path,|18|
 19,translit - pole,|19|
 20,translit - roll,|20|
-21,translit - tad,|21|
+21,translit - lob,|37|
 22,translit - tadpole,|22|
-23,translit - bath,|24|
-24,translit - bathtub,|25|
-25,translit - sit,|26|
-26,translit - mist,|27|
-27,translit - can,|28|
+23,translit - both,|24|
+24,translit - loafer,|25|
+25,translit - set,|26|
+26,translit - moist,|27|
+27,translit - tuna,|39|
 28,translit - rock,|23|
 29,where is Alexander,|29|
+30,** no tasks here,|30|
+31,who is this - Stephen,|32|
+32,who is this - Alexander,|31|
+33,translit-correct - neat,|33|
+34,translit - ankle,|34|
+35,translit - empty,|35|
+36,translit - hello,|36|
+37,translit - most,|38|
+38,article - oikos,|40|
+39,article-correct - oikos,|45|
+40,article - mater,|42|
+41,article-correct - pater,|41|
+42,article - υἱος,|44|
+43,article - πατηρ,|43|
+44,article - δουλος,|46|
+45,identify - πατηρ,|47|
+46,identify - πατηρ,|48|
+47,identify - ματηρ,|53|
+48,identify - ματηρ,|54|
+49,identify - θυγατηρ,|49|
+50,identify - θυγατηρ,|50|
+51,identify - δουλος,|51|
+52,identify - δουλος,|52|
+53,identify - δουλη,|55|
+54,identify - δουλη,|56|
+55,identify - δουλη,|57|
+56,identify relationship - ἀδελφος,|58|
+57,identify relationship - υἱος,|59|
+58,identify relationship - θυγατηρ,|60|
+59,identify relationship - ἀδελφη,|62|
+60,identify relationship - θυγατηρ,|61|
+61,identify relationship - υἱος,|63|
+62,identify relationship - πατηρ,|64|
+63,translit - task - meat,|67|66|68|
+64,translit - task - bread,|69|66|70|
+65,translit - hard,|72|
+66,translit - song,|73|
+67,translit - spring,|74|
+68,translit - hammer,|75|
+69,translit - nail,|76|
+70,translit - task - wine,|78|
+71,gen of rel - κυριος φοιβης,|79|
+72,gen of rel - κυριος ἐμου,|80|
+73,gen of rel - κυριος Ἰασωνος,|81|
+74,gen of rel - κυριος Μαριας,|82|
+75,Who is Μαρια - relationship,|84|
+76,Who is Σιμων - relationship,|85|
+77,Who is Ἰασων - relationship,|86|
+78,Who is Φοιβη - relationship,|87|
+79,Who is Γεωργιος - relationship,|88|
+80,gen of source - Ἀλεξανδρου,|90|89|
+81,gen of source - Μαριας,|92|91|
+82,gen of source - Στεφανου,|93|94|
+83,gen of source - Μαριας,|95|96|
+84,gen of rel - πατηρ σοφιας,|97|
+85,gen of rel - πατηρ Γεωργιου,|98|
+86,gen of rel - ἀδελφη Γεωργιου,|99|
+87,gen of rel - ματηρ Γεωργιου,|100|
+88,gen of rel - ματηρ Σοφιας,|97|
+89,grammar - identify clause 1,|101|
+90,learning names - Ἀλεξανδρος,|107|106|108|102|
+91,learning names - Διοδωρος,|104|103|105|102|
+92,learning names - Ἰασων,|109|108|102|110|
+93,learning names - Σοφια,|107|67|49|106|108|102|
 
 
 TABLE path_log
@@ -3641,14 +3743,11 @@ path_log.id,path_log.name,path_log.path,path_log.dt_started,path_log.last_step,p
 165,2,15,2012-03-29 14:52:52,15,<NULL>
 166,2,27,2012-03-29 17:29:59,28,<NULL>
 167,2,4,2012-03-29 17:32:22,3,<NULL>
-<<<<<<< HEAD
-=======
-238,47,14,2012-06-19 06:12:39,13,<NULL>
-381,46,23,2012-07-03 12:05:29,24,<NULL>
-382,46,23,2012-07-03 12:07:20,24,<NULL>
-383,46,13,2012-07-03 12:07:32,12,<NULL>
-384,46,14,2012-07-04 02:13:43,13,<NULL>
->>>>>>> refactor
+168,18,2,2012-07-04 11:07:53,1,<NULL>
+169,18,3,2012-07-04 11:23:49,2,<NULL>
+170,18,3,2012-07-04 11:44:55,2,<NULL>
+171,18,3,2012-07-04 11:50:15,2,<NULL>
+172,18,8,2012-07-04 11:51:01,7,<NULL>
 
 
 TABLE attempt_log
@@ -13787,24 +13886,9 @@ attempt_log.id,attempt_log.name,attempt_log.step,attempt_log.path,attempt_log.sc
 10132,2,29,15,0.0,2012-03-29 16:01:05
 10133,2,28,<NULL>,<NULL>,2012-03-29 17:29:59
 10134,2,3,<NULL>,<NULL>,2012-03-29 17:32:22
-<<<<<<< HEAD
-=======
-10135,46,6,7,0.0,2012-06-19 05:52:44
-10136,46,4,5,0.0,2012-06-19 05:55:44
-10137,46,8,9,0.0,2012-06-19 05:56:49
-10138,47,13,14,0.0,2012-06-19 06:12:44
-10139,46,25,24,0.0,2012-07-03 10:41:41
-10140,46,24,23,0.0,2012-07-03 11:16:41
-10141,46,24,23,0.0,2012-07-03 11:16:58
-10142,46,15,15,0.0,2012-07-03 11:33:18
-10143,46,17,17,0.0,2012-07-03 11:37:41
-10144,46,11,12,0.0,2012-07-03 11:50:26
-10145,46,24,23,0.0,2012-07-03 11:50:35
-10146,46,22,22,0.0,2012-07-03 11:50:42
-10147,46,24,23,0.0,2012-07-03 12:07:23
-10148,46,12,13,0.0,2012-07-03 12:07:35
-10149,46,13,14,0.0,2012-07-04 02:13:47
->>>>>>> refactor
+10135,18,1,2,0.0,2012-07-04 11:08:13
+10136,18,2,3,0.0,2012-07-04 11:50:57
+10137,18,7,8,0.0,2012-07-04 11:51:06
 
 
 TABLE tag_records
@@ -13849,10 +13933,7 @@ tag_records.id,tag_records.name,tag_records.tag,tag_records.times_right,tag_reco
 38,2,63,1.0,4.0,2012-03-29 14:45:57,2012-03-27 21:36:52,25,<NULL>
 39,2,62,0.0,4.0,2012-03-29 14:53:03,2012-03-28 20:16:07,15,<NULL>
 40,2,61,0.0,2.0,2012-03-28 21:18:06,2012-03-28 20:29:34,2,<NULL>
-<<<<<<< HEAD
-=======
-43,46,62,0.0,11.0,2012-07-04 02:13:47,2012-07-03 10:41:41,14,13
->>>>>>> refactor
+41,18,61,0.0,3.0,2012-07-04 11:51:06,2012-07-04 11:08:13,8,7
 
 
 TABLE bug_status
