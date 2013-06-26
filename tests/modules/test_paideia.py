@@ -44,12 +44,12 @@ global_run_TestStepAwardBadges = False
 global_run_TestStepViewSlides = False
 global_run_TestStepText = False
 global_run_TestStepMultiple = False
-global_run_TestStepEvaluator = False
+global_run_TestStepEvaluator = 1
 global_run_TestMultipleEvaluator = False
 global_run_TestPath = False
 global_run_TestUser = False
 global_run_TestCategorizer = False
-global_run_TestWalk = 1
+global_run_TestWalk = False
 global_run_TestPathChooser = False
 
 # ===================================================================
@@ -1876,6 +1876,65 @@ class TestStepEvaluator():
             assert actual['tips'] == expected['tips']
         else:
             pass
+
+    def test_stepevaluator_get_eval2(self):
+        """
+        Unit test for the StepEvaluator.get_eval2() method
+        """
+        userstrings_r = {1: u"Τον λογον τον ἀγαθον ἀκουει.",
+                       2: u"Τον ἀγαθον λογον ἀκουει.",
+                       3: u"Ἀκουει τον ἀγαθον λογον.",
+                       4: u"Ἀκουει τον λογον τον ἀγαθον."}
+
+        userstrings_w = {}
+
+        userstrings_p = {}
+
+        expression1 = "V('ἀκουει', \
+                        SU('-'), \
+                        DO('λογον', ART('τον'), \
+                           ADJ('ἀγαθον', \
+                               ART('τον')) \
+                           ) \
+                        )"
+        reply_text1 = ""
+
+        expression2 = ""
+        reply_text2 = ""
+
+        expression3 = ""
+        reply_text3 = ""
+
+        evaluator2 = StepEvaluator(responses={'response1': expression1,
+                                              'response2': expression2,
+                                              'response3': expression3},
+                                   tips='')
+        print evaluator2.get_eval2(userstrings_r[1])
+        assert 0
+
+        for u in userstrings_r:
+            actual = evaluator2.get_eval2(u, expression1)
+            assert actual['score'] == 1
+            assert actual['reply'] == reply_text1
+            assert actual['times_wrong'] == 0
+            assert actual['times_right'] == 1
+            assert actual['user_response'] == u
+
+        for u in userstrings_w:
+            actual = evaluator2.get_eval2(u, expression1)
+            assert actual['score'] == 0
+            assert actual['reply'] == reply_text2
+            assert actual['times_wrong'] == 0
+            assert actual['times_right'] == 1
+            assert actual['user_response'] == u
+
+        for u in userstrings_p:
+            actual = evaluator2.get_eval2(u, expression2)
+            assert actual['score'] == 0.5
+            assert actual['reply'] == reply_text3
+            assert actual['times_wrong'] == 0
+            assert actual['times_right'] == 1
+            assert actual['user_response'] == u
 
 
 class TestMultipleEvaluator():

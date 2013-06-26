@@ -11,6 +11,8 @@ import re
 import datetime
 from pytz import timezone
 
+from greek_helpers import V, SU, N, ADJ, ART, G, D, ADV, CJ, PT
+
 # TODO: move these notes elsewhere
 """
 The following files exist outside the paideia app folder and so need to be
@@ -973,6 +975,13 @@ class StepEvaluator(object):
                 'reply': reply,
                 'user_response': user_response,
                 'tips': tips}
+
+    def get_eval2(self, user_response):
+        """docstring for get_eval2"""
+        for key, r in self.responses.iteritems():
+            clauselist = [eval(c) for c in r.split('|') if r]
+
+        return clauselist
 
 
 class MultipleEvaluator(StepEvaluator):
