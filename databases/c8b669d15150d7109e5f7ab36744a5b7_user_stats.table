@@ -133,6 +133,7 @@ g21
 sg9
 I00
 sg10
+<<<<<<< HEAD
 g22
 ssS'count2'
 p33
@@ -153,6 +154,14 @@ ssS'count5'
 p35
 (dp36
 g4
+=======
+S'id'
+p32
+ssS'logs_right'
+p33
+(dp34
+g4
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 I512
 sg5
 I00
@@ -164,9 +173,15 @@ sg9
 I00
 sg10
 g22
+<<<<<<< HEAD
 ssS'id'
 p37
 (dp38
+=======
+ssS'name'
+p35
+(dp36
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 g4
 I512
 sg5
@@ -174,6 +189,7 @@ I00
 sg6
 I1
 sg7
+<<<<<<< HEAD
 S'INTEGER PRIMARY KEY AUTOINCREMENT'
 p39
 sg9
@@ -199,6 +215,18 @@ g22
 ssS'count6'
 p43
 (dp44
+=======
+S'INTEGER REFERENCES auth_user (id) ON DELETE CASCADE'
+p37
+sg9
+I00
+sg10
+S'reference auth_user'
+p38
+ssS'day6'
+p39
+(dp40
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 g4
 I512
 sg5
@@ -211,9 +239,15 @@ sg9
 I00
 sg10
 g22
+<<<<<<< HEAD
 ssS'logs_right'
 p45
 (dp46
+=======
+ssS'day7'
+p41
+(dp42
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 g4
 I512
 sg5
@@ -226,9 +260,15 @@ sg9
 I00
 sg10
 g22
+<<<<<<< HEAD
 ssS'name'
 p47
 (dp48
+=======
+ssS'day4'
+p43
+(dp44
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 g4
 I512
 sg5
@@ -292,8 +332,13 @@ I00
 sg10
 g15
 ssS'day5'
+<<<<<<< HEAD
 p60
 (dp61
+=======
+p45
+(dp46
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 g4
 I512
 sg5
@@ -308,8 +353,13 @@ I00
 sg10
 g15
 ssS'day2'
+<<<<<<< HEAD
 p63
 (dp64
+=======
+p47
+(dp48
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 g4
 I512
 sg5
@@ -324,8 +374,13 @@ I00
 sg10
 g15
 ssS'day3'
+<<<<<<< HEAD
 p66
 (dp67
+=======
+p49
+(dp50
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 g4
 I512
 sg5
@@ -338,24 +393,42 @@ p68
 sg9
 I00
 sg10
+<<<<<<< HEAD
 g15
 ssS'logs_by_tag'
 p69
 (dp70
+=======
+g22
+ssS'logs_by_tag'
+p51
+(dp52
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 g4
 I32768
 sg5
 I00
 sg6
+<<<<<<< HEAD
 I21
 sg7
 S'TEXT'
 p71
+=======
+I14
+sg7
+S'TEXT'
+p53
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 sg9
 I00
 sg10
 S'text'
+<<<<<<< HEAD
 p72
+=======
+p54
+>>>>>>> 45e635460aece20a9b5b1879abe12bd9b3980504
 ssS'day1'
 p73
 (dp74
